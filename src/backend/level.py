@@ -1,10 +1,11 @@
 # import lib.
-import pygame
+import pygame, sys, os
 
 # import variables / functions
-from settings import screen_width, screen_height
+# from settings import screen_width, screen_height
 
 # import classes
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", "backend"))
 from player import Player
 
 class Level():
@@ -13,9 +14,12 @@ class Level():
         self.display_surface= surface
         
         # call important methods
-        # self.setup()
+        self.setup()
     
     def setup(self):
+        screen_width = 1280
+        screen_height = 720
+
         # create all sprites
         self.all_sprites = pygame.sprite.Group()
         self.player = pygame.sprite.GroupSingle()
@@ -64,9 +68,12 @@ class Level():
                     player.rect.top = sprite.rect.bottom
                     player.direction.y = 0
     
+
+
     def update_and_draw(self, surface, dt):
         # player 
         self.player.update(dt, surface)
+        # self.player.pos.x = (self.player.pos.x + self.player.direction.x)
         # self.player.draw(surface)
         
         # layer
@@ -79,4 +86,3 @@ class Level():
         # player / wall collision
         # self.horizontal_movement_collision()
         # self.vertical_movement_collision()
-        pass

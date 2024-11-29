@@ -21,7 +21,7 @@ class Player(pygame.sprite.Sprite):
         
         # status
         self.status = 'right'
-        self.attack = False
+        self.interackt = False
         
         # player image settings 
         self.imgs_idle = []
@@ -37,5 +37,25 @@ class Player(pygame.sprite.Sprite):
         self.imgs_run_attack_down = []
         self.imgs_run_attack_up = []
     
+    def get_input(self):
+         keys = pygame.key.get_pressed()
+         
+         if keys[pygame.K_RIGHT] or keys[pygame.K_d]:
+            #  self.direction.x(1)
+             self.direction.x = self.speed
+             print("right")
+         elif keys[pygame.K_LEFT] or keys[pygame.K_a]:
+             print("left")
+             self.direction.x = self.speed * -1
+
+         if keys[pygame.K_UP] or keys[pygame.K_w]:
+             print("up")
+             self.direction.y = self.speed * -1
+         elif keys[pygame.K_DOWN] or keys[pygame.K_s]:
+             print("down")
+             self.direction.x = self.speed
+        #  self.pos.x = (self.pos.x + self.direction.x)
+         print(self.pos)
+
     def update(self, dt, surface):
-        pass
+        self.get_input()
