@@ -20,8 +20,7 @@ class Game():
 
     def run(self, dt):
         # call the run method on level (IMPORTANT)
-        # self.level.run(dt)
-        pass
+        self.level.run(display_surface)
 
 # Pygame setup
 pygame.init()

@@ -35,7 +35,10 @@ class Level():
         # player setup
         self.field_pos = (screen_width/2, screen_height/2)
         field = Field(50, 50, 32, 0)
+        self.fields = pygame.sprite.Group()
+        
         self.fields.add(field)
+        self.fields.update(1, self.display_surface)
 
     def horizontal_movement_collision(self):
         # setup for horizontal movement
@@ -83,7 +86,7 @@ class Level():
         # layer
         # self.all_sprites.draw(surface)
         self.fields.update(dt, surface)
-        self.fields.draw_field(surface)
+        # self.fields.field.draw_field(surface)
 
     def run(self, dt):
         # call methods to draw sth. on the surface
@@ -93,5 +96,5 @@ class Level():
         # self.horizontal_movement_collision()
         # self.vertical_movement_collision()
         # update and draw fields
-        self.fields.update(dt)
-        self.fields.draw_field(self.display_surface)
+        self.fields.update(dt, self.display_surface)
+        self.fields.draw(self.display_surface)
