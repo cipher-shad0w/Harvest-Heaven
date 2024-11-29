@@ -10,7 +10,7 @@ from player import Player
 from tiles import Field
 
 class Level():
-    def __init__(self, surface):
+    def __init__(self, leve_data, surface):
         # get the display surface
         self.display_surface= surface
 

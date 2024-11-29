@@ -16,7 +16,7 @@ class Game():
     def create_level(self):
         # create the level with the class Level
         self.status = 'level'
-        self.level = Level(display_surface)
+        self.level = Level( ,display_surface)
 
     def run(self, dt):
         # call the run method on level (IMPORTANT)
