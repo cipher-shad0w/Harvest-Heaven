@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="ground" tilewidth="16" tileheight="16" tilecount="77" columns="11">
+  <image source="../assets/Tilesets/Grass.png" width="176" height="112"/>
+ </tileset>
+ <tileset firstgid="78" name="Fences" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="../assets/Tilesets/Fences.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="94" name="Tilled_Dirt_Wide" tilewidth="16" tileheight="16" tilecount="77" columns="11">
+  <image source="../assets/Tilesets/Tilled_Dirt_Wide.png" width="176" height="112"/>
+ </tileset>
+ <layer id="1" name="Kachelebene 1" width="20" height="10">
+  <data encoding="csv">
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,
+12,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,14,
+12,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,14,
+12,13,13,13,13,13,13,13,13,13,13,13,106,106,106,106,106,106,106,14,
+12,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,14,
+12,13,13,13,13,13,13,13,13,13,13,13,106,106,106,106,106,106,106,14,
+12,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,14,
+12,13,13,13,13,13,13,13,13,13,13,13,106,106,106,106,106,106,106,14,
+12,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,14,
+23,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,25
+</data>
+ </layer>
+ <layer id="2" name="soil" width="20" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,127,128,128,128,128,128,129,0,
+0,0,0,0,0,0,0,0,0,0,0,0,127,128,128,128,128,128,129,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
