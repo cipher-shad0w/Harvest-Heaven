@@ -6,6 +6,7 @@ from settings import screen_width, screen_height
 
 # import classes
 from player import Player
+from backend.tiles import Field
 
 class Level():
     def __init__(self, surface):
@@ -18,12 +19,18 @@ class Level():
     def setup(self):
         # create all sprites
         self.all_sprites = pygame.sprite.Group()
+        self.fields = pygame.sprite.Group()
         self.player = pygame.sprite.GroupSingle()
         
         # player setup
         self.player_pos = (screen_width/2, screen_height/2)
         player = Player(self.player_pos)
         self.player.add(player)
+        
+        # player setup
+        self.field_pos = (screen_width/2, screen_height/2)
+        field = Field(self.field_pos)
+        self.fields.add(field)
 
     
     def horizontal_movement_collision(self):
