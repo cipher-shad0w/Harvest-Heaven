@@ -1,23 +1,23 @@
-# import lib. 
+# import lib.
 import pygame, sys
 
 # import variables / functions
 from backend.settings import screen_width, screen_height
 
 # import classes
-# `from backend.level import Level
+from backend.level import Level
 
 class Game():
-    
+
     def __init__(self):
         # call the method to create the level
-        # self.create_level()
-        pass
-            
+        self.create_level()
+
     def create_level(self):
         # create the level with the class Level
         self.status = 'level'
-    
+        self.level = Level(display_surface)
+
     def run(self, dt):
         # call the run method on level (IMPORTANT)
         # self.level.run(dt)
@@ -57,4 +57,3 @@ while True:
     # run the game
     game.run(dt)
     pygame.display.update()
-    
