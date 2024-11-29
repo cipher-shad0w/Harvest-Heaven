@@ -4,8 +4,9 @@ from settings import screen_height, screen_width
 from functools import wraps
 from typing import Callable, Any
 from time import perf_counter
+from csv import reader
 
-# import from pygame and set the font 
+# import from pygame and set the font
 pygame.init()
 surface = pygame.display.set_mode((screen_width,screen_height))
 font = pygame.font.Font(None ,30)
@@ -57,3 +58,15 @@ def get_time(func:Callable):
         return result
     
     return wrapper
+
+def import_csv_layout(path):
+
+    soil_map = []
+    player = []
+
+    with open(path) as map:
+        level = reader(map, delimiter=',')
+        for row in level:
+            soil_map.append(list(row))
+        return soil_map
+            

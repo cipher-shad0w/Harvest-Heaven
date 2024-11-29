@@ -6,9 +6,9 @@ class Tile(pygame.sprite.Sprite):
         super().__init__()
 
         # tiled setup
-        self.image_ = pygame.Surface((size, size))
-        self.image_.fill("grey")
-        self.rect = self.image_.get_rect(topleft=(x, y))
+        self.image = pygame.Surface((size, size))
+        self.image.fill("grey")
+        self.rect = self.image.get_rect(topleft=(x, y))
 
 
 class StaticTile(Tile):
