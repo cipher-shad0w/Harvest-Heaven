@@ -6,12 +6,12 @@ from settings import p_speed, p_size
 from support import debug
 
 class Player(pygame.sprite.Sprite):
-    def __init__(self, pos):
+    def __init__(self, pos: tuple):
         super().__init__()
         
         # player movement
         self.direction = pygame.math.Vector2(0, 0)
-        self.pos = pygame.math.Vector2() #self.rect.center -- in ()
+        self.pos = pygame.math.Vector2(pos) #self.rect.center -- in ()
         self.speed = p_speed
         
         # animation setup
@@ -52,7 +52,7 @@ class Player(pygame.sprite.Sprite):
             self.direction.y = self.speed * -1
         elif keys[pygame.K_DOWN] or keys[pygame.K_s]:
             print("down")
-            self.direction.x = self.speed
+            self.direction.y = self.speed
 
         # print(self.pos)
 
@@ -63,3 +63,6 @@ class Player(pygame.sprite.Sprite):
         print(self.pos.xy)
         self.direction.x = 0
         self.direction.y = 0
+        
+        player_rect = pygame.Rect(self.pos.x, self.pos.y, 20 ,20)
+        pygame.draw.rect(surface, "green", player_rect)
