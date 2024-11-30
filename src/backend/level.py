@@ -5,9 +5,9 @@ import pygame, os, sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'backend'))
 
 from player import Player
-from tiles import Tile, StaticTile
+from tiles import StaticTile
 from support import import_csv_layout, import_cut_graphics
-from settings import tile_size, zoom, screen_height, screen_width
+from settings import tile_size, screen_height, screen_width
 from field import Field
 
 
@@ -40,6 +40,7 @@ class Level:
         self.player_pos = (screen_width/2, screen_height/2)
         # player = Player(self.player_pos)
         self.player = Player(self.player_pos, self.display_surface)
+        self.all_sprites.add(self.player)
         # self.player.add(player)
         # self.player ist eine Single-Sprite-Gruppe, in der ein Objekt der Klasse Player ist
 
@@ -124,26 +125,26 @@ class Level:
                         soil_tile_list = import_cut_graphics("./assets/Tilesets/Tilled_Dirt_Wide.png")
                         tile_surface = soil_tile_list[int(cell)]
                         sprite = StaticTile(x, y, tile_size * 2, tile_surface)
+                        sprite_group.add(sprite)
                     if type == "ground":
                         ground_tile_list = import_cut_graphics(
                             "./assets/Tilesets/Grass.png"
                         )
                         tile_surface = ground_tile_list[int(cell)]
                         sprite = StaticTile(x, y, tile_size * 2, tile_surface)
+                        sprite_group.add(sprite)
                     if type == "fences":
                         fences_tile_list = import_cut_graphics(
                             "./assets/Tilesets/Fences.png"
                         )
                         tile_surface = fences_tile_list[int(cell)]
                         sprite = StaticTile(x, y, tile_size *2, tile_surface)
+                        sprite_group.add(sprite)
                     if type == "player":
                         player_tile_list = import_cut_graphics(
                             "./assets/player/Basic_Charakter_Spritesheet.png"
                         )
                         player_surface = player_tile_list[1]
-                        sprite = Player((x, y), player_surface)
-                    if sprite:
-                        sprite_group.add(sprite)
 
         return sprite_group
 
@@ -163,8 +164,8 @@ class Level:
         # self.player_sprites.update(dt, surface)
 
         # player / wall collision
-        self.horizontal_movement_collision()
-        self.vertical_movement_collision()
+        # self.horizontal_movement_collision()
+        # self.vertical_movement_collision()
         self.out_of_bounds()
 
         self.update_and_draw(surface, dt)

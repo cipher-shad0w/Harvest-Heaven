@@ -2,8 +2,8 @@
 import pygame
 
 # import variables / functions
-from settings import p_speed, p_size
-from support import debug, import_cut_graphics
+from settings import p_speed
+from support import import_cut_graphics
 
 class Player(pygame.sprite.Sprite):
     def __init__(self, pos, surface):
@@ -30,7 +30,7 @@ class Player(pygame.sprite.Sprite):
         self.g = 50
         self.b = 50
         
-        self.check_pressed:bool = False
+        self.check_pressed = False
 
         # player image settings
         self.imgs_idle = []
@@ -80,12 +80,11 @@ class Player(pygame.sprite.Sprite):
         if self.g < 255:
             self.g += 0.1
         
-        return pygame.Color(self.r,self.g,self.b)
+        return pygame.Color(int(self.r), int(self.g), int(self.b))
         
 
     def draw_player(self):
-
-        imgs = import_cut_graphics("./assets/player/Basic_Charakter_Spritesheet.png")
+        import_cut_graphics("./assets/player/Basic_Charakter_Spritesheet.png")
         self.image = pygame.image.load(
             "./assets/player/Basic_Charakter_Spritesheet.png"
         )
@@ -95,35 +94,7 @@ class Player(pygame.sprite.Sprite):
             self.image, ((width), (height))
         )
         self.rect = self.image.get_rect(topleft=(self.x, self.y))
-        # self.rect = self.image.get_rect(center=((self.y), (self.x - 50)))
-
-    def draw_player(self):
-
-        imgs = import_cut_graphics("./assets/player/Basic_Charakter_Spritesheet.png")
-        self.image = pygame.image.load(
-            "./assets/player/Basic_Charakter_Spritesheet.png"
-        )
-        height = self.image.get_height()
-        width = self.image.get_width()
-        self.image = pygame.transform.scale(
-            self.image, ((width), (height))
-        )
-        self.rect = self.image.get_rect(topleft=(self.x, self.y))
-        # self.rect = self.image.get_rect(center=((self.y), (self.x - 50)))
-
-    def draw_player(self):
-
-        imgs = import_cut_graphics("./assets/player/Basic_Charakter_Spritesheet.png")
-        self.image = pygame.image.load(
-            "./assets/player/Basic_Charakter_Spritesheet.png"
-        )
-        height = self.image.get_height()
-        width = self.image.get_width()
-        self.image = pygame.transform.scale(
-            self.image, ((width), (height))
-        )
-        self.rect = self.image.get_rect(topleft=(self.x, self.y))
-        # self.rect = self.image.get_rect(center=((self.y), (self.x - 50)))
+        self.rect = self.image.get_rect(center=((self.y), (self.x - 50)))
 
     def update(self, dt, surface):
         self.get_input()
@@ -138,4 +109,4 @@ class Player(pygame.sprite.Sprite):
         player_rect = pygame.Rect(self.pos.x-10, self.pos.y-10, 20 ,20)
         pygame.draw.rect(surface, "red", player_rect)
 
-        #self.draw_player()
+        # self.draw_player()
