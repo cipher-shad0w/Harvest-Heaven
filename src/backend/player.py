@@ -21,7 +21,13 @@ class Player(pygame.sprite.Sprite):
         
         # status
         self.status = 'right'
-        self.interackt = False
+        self.interact = False
+        self.new_color = None
+        self.r = 50
+        self.g = 50
+        self.b = 50
+        
+        self.check_pressed:bool = False
         
         # player image settings 
         self.imgs_idle = []
@@ -54,12 +60,32 @@ class Player(pygame.sprite.Sprite):
             print("down")
             self.direction.y = self.speed
 
+        if keys[pygame.K_e]:
+            # if self.check_pressed:
+            #     self.check_pressed = False
+            # else: 
+            #     self.check_pressed = True
+            
+            self.interact = True
+            
+            print('interaction')
         # print(self.pos)
+        
+    def interaction(self)->pygame.Color:
+        # self.interact = False
+        # return pygame.Color(randint(0,255),randint(0,255),randint(0,255))
+        if self.g < 255:
+            self.g += 0.1
+        
+        return pygame.Color(self.r,self.g,self.b)
+        
 
     def update(self, dt, surface):
         self.get_input()
         self.pos.x = self.pos.x + (self.direction.x*dt)
         self.pos.y = self.pos.y + (self.direction.y*dt)
+        if self.interact:
+            self.new_color = self.interaction()
         print(self.pos.xy)
         self.direction.x = 0
         self.direction.y = 0
