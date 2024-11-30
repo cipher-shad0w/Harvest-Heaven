@@ -7,6 +7,7 @@ from backend.settings import screen_width, screen_height
 # import classes
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "backend"))
 from player import Player
+from field import Field
 
 class Level():
     def __init__(self, surface):
@@ -30,6 +31,8 @@ class Level():
         self.player = Player(self.player_pos)
         # self.player.add(player)
         # self.player ist eine Single-Sprite-Gruppe, in der ein Objekt der Klasse Player ist
+        
+        self.field1 = Field((screen_width/1.5, screen_height/1.5))
 
     
     def horizontal_movement_collision(self):
@@ -85,8 +88,8 @@ class Level():
         # player 
         # self.player.
         
+        self.field1.draw(surface)
         self.player.update(dt, surface)
-        
         
         
         # self.player.pos.x = (self.player.pos.x + self.player.direction.x)
