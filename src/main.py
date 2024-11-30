@@ -25,7 +25,7 @@ class Game():
 
 # Pygame setup
 pygame.init()
-display_surface = pygame.display.set_mode((screen_width,screen_height))
+display_surface = pygame.display.set_mode((screen_width * 2,screen_height * 2))
 # display_surface = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
 clock = pygame.time.Clock()
 game = Game()

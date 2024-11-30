@@ -12,7 +12,8 @@ animation_speed = 0.125
 # map settings
 vertical_tile_number = 10
 horizontal_tile_number = 20
-tile_size = 32
+tile_size = 16
+zoom = 2
 
 # window settings
 screen_width = horizontal_tile_number * tile_size
