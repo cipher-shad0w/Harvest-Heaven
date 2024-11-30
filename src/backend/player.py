@@ -64,5 +64,5 @@ class Player(pygame.sprite.Sprite):
         self.direction.x = 0
         self.direction.y = 0
         
-        player_rect = pygame.Rect(self.pos.x, self.pos.y, 20 ,20)
+        player_rect = pygame.Rect(self.pos.x-10, self.pos.y-10, 20 ,20)
         pygame.draw.rect(surface, "green", player_rect)
