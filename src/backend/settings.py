@@ -7,7 +7,7 @@ tile_size = 64
 solid_color = 'black'
 
 # player settings
-p_speed = 300
+p_speed = 5
 p_size = 192
 
 # animation settings
