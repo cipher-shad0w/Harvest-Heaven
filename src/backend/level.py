@@ -67,18 +67,18 @@ class Level:
 
     def update_and_draw(self, surface, dt):
         # update and draw the sprites
-
+        
         self.ground_sprites.draw(surface)
         self.ground_sprites.update(dt, surface)
 
         self.fences_sprites.draw(surface)
         self.fences_sprites.update(dt, surface)
-        
+
         self.soil_sprites.draw(surface)
         self.soil_sprites.update(dt, surface)
 
         # self.player_sprites.draw(surface)
         # self.player_sprites.update(dt, surface)
-
+        
     def run(self, display_surface):
         self.update_and_draw(self.display_surface, 0.1)

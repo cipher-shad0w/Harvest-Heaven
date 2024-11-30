@@ -10,12 +10,15 @@ class Tile(pygame.sprite.Sprite):
         self.image = pygame.transform.scale(self.image, (size * 2, size * 2))
         self.rect = self.image.get_rect(topleft=(x, y))
 
-
 class StaticTile(Tile):
     def __init__(self, size, x, y, surface):
         super().__init__(size, x, y)
         self.image = surface
 
+class FieldTile(StaticTile):
+    def __init__(self, size, x, y, surface):
+        super().__init__(size, x, y, pygame.image.load('./assets/Tilesets/Tilled_Dirt_Wide.png').convert_alpha())
+        
 
 class AnimatedTile(Tile):
     def __init__(self, size, x, y, surface_list):
