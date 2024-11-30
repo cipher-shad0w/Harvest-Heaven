@@ -41,6 +41,9 @@ class Level:
         self.player = Player(self.player_pos, self.display_surface)
         # self.player.add(player)
         # self.player ist eine Single-Sprite-Gruppe, in der ein Objekt der Klasse Player ist
+        
+        self.field1 = Field((screen_width/1.5, screen_height/1.5))
+        self.all_sprites.add(self.field1)
 
     
     def horizontal_movement_collision(self):
@@ -96,8 +99,11 @@ class Level:
         # player 
         # self.player.
         
+        self.field1.draw(surface)
         self.player.update(dt, surface)
-        
+        if self.player.interact:
+            self.player.interact = False
+            self.field1.color = self.player.new_color 
         
         
         # self.player.pos.x = (self.player.pos.x + self.player.direction.x)
