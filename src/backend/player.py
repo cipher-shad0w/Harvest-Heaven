@@ -8,7 +8,7 @@ from support import debug, import_cut_graphics
 class Player(pygame.sprite.Sprite):
     def __init__(self, pos, surface):
         super().__init__()
-        
+
         self.x, self.y = pos
         self.surface = surface
 
@@ -25,8 +25,8 @@ class Player(pygame.sprite.Sprite):
         # status
         self.status = 'right'
         self.interackt = False
-        
-        # player image settings 
+
+        # player image settings
         self.imgs_idle = []
         self.imgs_run = []
         self.imgs_down = []
@@ -39,12 +39,12 @@ class Player(pygame.sprite.Sprite):
         self.imgs_run_attack = []
         self.imgs_run_attack_down = []
         self.imgs_run_attack_up = []
-    
+
     def get_input(self):
         keys = pygame.key.get_pressed()
-        
+
         if keys[pygame.K_RIGHT] or keys[pygame.K_d]:
-        #  self.direction.x(1)
+            #  self.direction.x(1)
             self.direction.x = self.speed
             print("right")
         elif keys[pygame.K_LEFT] or keys[pygame.K_a]:
@@ -59,10 +59,12 @@ class Player(pygame.sprite.Sprite):
 
         # print(self.pos)
 
-
     def draw_player(self):
-        
-        self.image = pygame.image.load(self.surface)
+
+        imgs = import_cut_graphics("./assets/player/Basic_Charakter_Spritesheet.png")
+        self.image = pygame.image.load(
+            "./assets/player/Basic_Charakter_Spritesheet.png"
+        )
         height = self.image.get_height()
         width = self.image.get_width()
         self.image = pygame.transform.scale(
@@ -78,6 +80,8 @@ class Player(pygame.sprite.Sprite):
         print(self.pos.xy)
         self.direction.x = 0
         self.direction.y = 0
-        
-        player_rect = pygame.Rect(self.pos.x-10, self.pos.y-10, 20 ,20)
-        pygame.draw.rect(surface, "green", player_rect)
+
+        # player_rect = pygame.Rect(self.pos.x-10, self.pos.y-10, 20 ,20)
+        # pygame.draw.rect(surface, "red", player_rect)
+
+        self.draw_player()

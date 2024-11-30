@@ -1,14 +1,13 @@
 # import lib.
-import pygame
-
-# import variables / functions
-from settings import screen_width, screen_height
+import pygame, os, sys
 
 # import classes
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'backend'))
+
 from player import Player
 from tiles import Tile, StaticTile
 from support import import_csv_layout, import_cut_graphics
-from settings import tile_size, zoom
+from settings import tile_size, zoom, screen_height, screen_width
 
 
 class Level:
@@ -16,21 +15,30 @@ class Level:
         # get the display surface
         self.display_surface= surface
         
+        soil_layout = import_csv_layout(level_data["soil"])
+        self.soil_sprites = self.create_tile_group(soil_layout, "soil")
+
+        ground_layout = import_csv_layout(level_data["ground"])
+        self.ground_sprites = self.create_tile_group(ground_layout, "ground")
+
+        fences_layout = import_csv_layout(level_data["fences"])
+        self.fences_sprites = self.create_tile_group(fences_layout, "fences")
+
+        player_layout = import_csv_layout(level_data["player"])
+        self.player_sprites = self.create_tile_group(player_layout, "player")
+        
         # call important methods
         self.setup()
     
     def setup(self):
-        # screen_width = 1280
-        # screen_height = 720
 
-        # create all sprites
         self.all_sprites = pygame.sprite.Group()
         # self.player = pygame.sprite.GroupSingle()
         
         # player setup
         self.player_pos = (screen_width/2, screen_height/2)
         # player = Player(self.player_pos)
-        self.player = Player(self.player_pos)
+        self.player = Player(self.player_pos, self.display_surface)
         # self.player.add(player)
         # self.player ist eine Single-Sprite-Gruppe, in der ein Objekt der Klasse Player ist
 
@@ -41,7 +49,7 @@ class Level:
         # player.rect.x += player.direction.x * player.speed
         
         # check if a block left or right besides the player
-        for sprite in self.all_sprites.sprites():
+        for sprite in self.fences_sprites.sprites():
             if sprite.rect.colliderect(self.player.rect):
                 
                 # left
@@ -94,19 +102,7 @@ class Level:
         
         # self.player.pos.x = (self.player.pos.x + self.player.direction.x)
         # self.player.draw(surface)
-        self.display_surface = surface
 
-        soil_layout = import_csv_layout(level_data["soil"])
-        self.soil_sprites = self.create_tile_group(soil_layout, "soil")
-
-        ground_layout = import_csv_layout(level_data["ground"])
-        self.ground_sprites = self.create_tile_group(ground_layout, "ground")
-
-        fences_layout = import_csv_layout(level_data["fences"])
-        self.fences_sprites = self.create_tile_group(fences_layout, "fences")
-
-        player_layout = import_csv_layout(level_data["player"])
-        self.player_sprites = self.create_tile_group(player_layout, "player")
 
     def create_tile_group(self, layout, type):
         # create a sprite group
@@ -146,7 +142,7 @@ class Level:
 
         return sprite_group
 
-    def update_and_draw(self, surface, dt):
+    def run(self, surface, dt):
         # update and draw the sprites
         
         self.ground_sprites.draw(surface)
@@ -165,3 +161,5 @@ class Level:
         # self.horizontal_movement_collision()
         # self.vertical_movement_collision()
         self.out_of_bounds()
+
+        self.update_and_draw(surface, dt)

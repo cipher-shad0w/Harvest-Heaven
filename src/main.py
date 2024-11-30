@@ -16,13 +16,12 @@ class Game():
             
     def create_level(self):
         # create the level with the class Level
-        self.level = Level(display_surface)
         self.status = 'level'
         self.level = Level(level_0 ,display_surface)
 
     def run(self, dt):
         # call the run method on level (IMPORTANT)
-        self.level.run(display_surface)
+        self.level.run(display_surface, dt)
 
 # Pygame setup
 pygame.init()
