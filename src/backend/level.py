@@ -47,13 +47,13 @@ class Level:
                             "./assets/Tilesets/Grass.png"
                         )
                         tile_surface = ground_tile_list[int(cell)]
-                        sprite = StaticTile(x, y, tile_size *2, tile_surface)
+                        sprite = StaticTile(x, y, tile_size * 2, tile_surface)
                     if type == "fences":
                         fences_tile_list = import_cut_graphics(
                             "./assets/Tilesets/Fences.png"
                         )
                         tile_surface = fences_tile_list[int(cell)]
-                        sprite = StaticTile(x, y, tile_size * 2, tile_surface)
+                        sprite = StaticTile(x, y, tile_size *2, tile_surface)
                     if type == "player":
                         player_tile_list = import_cut_graphics(
                             "./assets/player/Basic_Charakter_Spritesheet.png"

@@ -31,7 +31,7 @@ clock = pygame.time.Clock()
 game = Game()
 
 # window setup (only needed if the screen is not fullscreen)
-pygame.display.set_caption("game_name")
+pygame.display.set_caption("Harvest Heaven")
 # pygame_icon = pygame.image.load(game_icon)
 # pygame.display.set_icon(pygame_icon)
 
