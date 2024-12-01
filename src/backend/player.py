@@ -2,40 +2,111 @@
 import pygame
 
 # import variables / functions
-from settings import p_speed, p_size
-from support import debug
+from settings import p_speed
+from support import import_cut_graphics
 
 class Player(pygame.sprite.Sprite):
-    def __init__(self, pos):
+    def __init__(self, pos, surface):
         super().__init__()
-        
+
+        self.x, self.y = pos
+        self.surface = surface
+
         # player movement
         self.direction = pygame.math.Vector2(0, 0)
-        self.pos = pygame.math.Vector2() #self.rect.center -- in ()
+        self.pos = pygame.math.Vector2(pos) #self.rect.center -- in ()
         self.speed = p_speed
-        
+
         # animation setup
         self.frame_index = 1
         self.frames = 6
         self.animation_speed = 0.0017
-        
+
         # status
         self.status = 'right'
-        self.attack = False
+        self.interact = False
+        self.new_color = None
+        self.r = 50
+        self.g = 50
+        self.b = 50
         
-        # player image settings 
+        self.check_pressed = False
+
+        # player image settings
         self.imgs_idle = []
         self.imgs_run = []
         self.imgs_down = []
         self.imgs_up = []
-        
+
         self.imgs_idle_attack = []
         self.imgs_idle_attack_down = []
         self.imgs_idle_attack_up = []
-        
+
         self.imgs_run_attack = []
         self.imgs_run_attack_down = []
         self.imgs_run_attack_up = []
-    
+
+    def get_input(self):
+        keys = pygame.key.get_pressed()
+
+        if keys[pygame.K_RIGHT] or keys[pygame.K_d]:
+            #  self.direction.x(1)
+            self.direction.x = self.speed
+            print("right")
+        elif keys[pygame.K_LEFT] or keys[pygame.K_a]:
+            print("left")
+            self.direction.x = self.speed * -1
+        if keys[pygame.K_UP] or keys[pygame.K_w]:
+            print("up")
+            self.direction.y = self.speed * -1
+        elif keys[pygame.K_DOWN] or keys[pygame.K_s]:
+            print("down")
+            self.direction.y = self.speed
+
+        if keys[pygame.K_e]:
+            # if self.check_pressed:
+            #     self.check_pressed = False
+            # else: 
+            #     self.check_pressed = True
+            
+            self.interact = True
+            
+            print('interaction')
+        # print(self.pos)
+        
+    def interaction(self)->pygame.Color:
+        # self.interact = False
+        # return pygame.Color(randint(0,255),randint(0,255),randint(0,255))
+        if self.g < 255:
+            self.g += 0.1
+        
+        return pygame.Color(int(self.r), int(self.g), int(self.b))
+        
+
+    def draw_player(self):
+        import_cut_graphics("./assets/player/Basic_Charakter_Spritesheet.png")
+        self.image = pygame.image.load(
+            "./assets/player/Basic_Charakter_Spritesheet.png"
+        )
+        height = self.image.get_height()
+        width = self.image.get_width()
+        self.image = pygame.transform.scale(
+            self.image, ((width), (height))
+        )
+        self.rect = self.image.get_rect(topleft=(self.x, self.y))
+        self.rect = self.image.get_rect(center=((self.y), (self.x - 50)))
+
     def update(self, dt, surface):
-        pass
+        self.get_input()
+        self.pos.x = self.pos.x + (self.direction.x*dt)
+        self.pos.y = self.pos.y + (self.direction.y*dt)
+        if self.interact:
+            self.new_color = self.interaction()
+        print(self.pos.xy)
+        self.direction.x = 0
+        self.direction.y = 0
+
+        player_rect = pygame.Rect(self.pos.x-10, self.pos.y-10, 20 ,20)
+        pygame.draw.rect(surface, "red", player_rect)
+
+        # self.draw_player()
