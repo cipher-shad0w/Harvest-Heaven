@@ -34,7 +34,6 @@ class Game():
             # call the run method on level (IMPORTANT)
             self.level.run(display_surface, dt)
 
-
 # Pygame setup
 pygame.init()
 display_surface = pygame.display.set_mode((screen_width * 2,screen_height * 2))
@@ -61,8 +60,8 @@ while True:
     display_surface.fill("#c0d470")
 
     # for the performance (FPS)
-    dt = clock.tick() / 1000
-
+    dt = clock.tick() / 100
+    print(dt)
     y = display_surface.get_height()
     x = display_surface.get_width()
 

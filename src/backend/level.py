@@ -44,7 +44,7 @@ class Level:
         # self.player.add(player)
         # self.player ist eine Single-Sprite-Gruppe, in der ein Objekt der Klasse Player ist
 
-        self.field1 = Field((screen_width/1.5, screen_height/1.5))
+        self.field1 = Field((screen_width/0.7, screen_height/1.9))
         self.all_sprites.add(self.field1)
 
     def horizontal_movement_collision(self):
