@@ -205,7 +205,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -243,7 +243,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1547,7 +1547,64 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Inventory_Spritesheet_0: 8500677553399735413
+      Inventory_Spritesheet_1: -928683038628890330
+      Inventory_Spritesheet_10: -3349220838413841270
+      Inventory_Spritesheet_11: -3395625360083869007
+      Inventory_Spritesheet_12: 3213570522767360526
+      Inventory_Spritesheet_13: 3767916051941559326
+      Inventory_Spritesheet_14: -7456691795669483226
+      Inventory_Spritesheet_15: 2602343887952890070
+      Inventory_Spritesheet_16: -1184466037688885585
+      Inventory_Spritesheet_17: 2232947422907170388
+      Inventory_Spritesheet_18: 853863656838870698
+      Inventory_Spritesheet_19: -1141143054345117166
+      Inventory_Spritesheet_2: -741638291186560277
+      Inventory_Spritesheet_20: -5314360844836081388
+      Inventory_Spritesheet_21: -5046437504402462125
+      Inventory_Spritesheet_22: 6061509635503692243
+      Inventory_Spritesheet_23: -4537862932080044953
+      Inventory_Spritesheet_24: -1837946461362685853
+      Inventory_Spritesheet_25: -5997668314561429105
+      Inventory_Spritesheet_26: -8879064705533728904
+      Inventory_Spritesheet_27: -4458986198161552809
+      Inventory_Spritesheet_28: 3831447428184040812
+      Inventory_Spritesheet_29: -8311297189150356272
+      Inventory_Spritesheet_3: 8353637307011787898
+      Inventory_Spritesheet_30: 6713566947063941252
+      Inventory_Spritesheet_31: 218786723052664561
+      Inventory_Spritesheet_32: -6767535384907545068
+      Inventory_Spritesheet_33: -862554551543729713
+      Inventory_Spritesheet_34: -6401619919646399702
+      Inventory_Spritesheet_35: 3324214183215653806
+      Inventory_Spritesheet_36: 6103463114453823227
+      Inventory_Spritesheet_37: 2911230113467918370
+      Inventory_Spritesheet_38: 3911915337904066357
+      Inventory_Spritesheet_39: -6816994297657169479
+      Inventory_Spritesheet_4: 4227229332684895624
+      Inventory_Spritesheet_40: -1512009441615923461
+      Inventory_Spritesheet_41: 4333122558310488597
+      Inventory_Spritesheet_42: 6029341246794706182
+      Inventory_Spritesheet_43: 2004158820948077064
+      Inventory_Spritesheet_44: -6770974688828752445
+      Inventory_Spritesheet_45: -5600581544477209053
+      Inventory_Spritesheet_46: -117590435295019542
+      Inventory_Spritesheet_47: 2842865979630209570
+      Inventory_Spritesheet_48: -6282211584583149738
+      Inventory_Spritesheet_49: 4475453090167120138
+      Inventory_Spritesheet_5: -3297575754759777061
+      Inventory_Spritesheet_50: -6363060893517107075
+      Inventory_Spritesheet_51: -5868780268800208184
+      Inventory_Spritesheet_52: 8978319142608318056
+      Inventory_Spritesheet_53: 1981584963386040975
+      Inventory_Spritesheet_54: -6620080284410861869
+      Inventory_Spritesheet_55: -6735036652408415455
+      Inventory_Spritesheet_56: -6904782052407996511
+      Inventory_Spritesheet_6: -711142477844216320
+      Inventory_Spritesheet_7: 8023002372956718957
+      Inventory_Spritesheet_8: -7507832856700747662
+      Inventory_Spritesheet_9: -9160814280976936917
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

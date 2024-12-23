@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,12 +116,12 @@ TextureImporter:
       name: pixel-letters-7-8x14-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 472
-        height: 424
+        x: 4
+        y: 364
+        width: 32
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +134,1155 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 364
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ba56a1999444dc5baf3487c4dfe1cf
+      internalID: 1311545120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 364
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96f643b2c6404b0485f505eb34d2470
+      internalID: -263492981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 364
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f38cc63bc4f4704b57a95af3880865
+      internalID: -689481774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 364
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045309a48d96a461aaa2440cc26a9751
+      internalID: -1874716730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 364
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a3ce4920c1d4ee691b85a233420f0b
+      internalID: 1380120296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_6
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 364
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eef2775e4ae04a0981281b27c444f87
+      internalID: -524149455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 364
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34382b41bda604b169eb61edd27d9e1b
+      internalID: -1989761281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_8
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 364
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba89462fd8b14323892143c7d2b09b0
+      internalID: 884446770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_9
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 364
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bb10c69894743ea976c2ad53f5a52c
+      internalID: -1210654951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_10
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 364
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392560f93f16945f383db93ed3e7b61c
+      internalID: -1599551754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 364
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c482d4aa72d24bdfad474cd2cdbbc75
+      internalID: -241318786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_12
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 364
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd19c7b3cccc4e12afd1ea30c815dda
+      internalID: -1535967981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 304
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d058df9de6a4e2ab855a287da48597
+      internalID: -287593639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 304
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff3a11646c1d4f06b77fd47a29f5513
+      internalID: 826861513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_15
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 304
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e301564f4c6548bbabfef17b39ce3ca
+      internalID: 293498018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b4f6539892543b2a9a5396721801a1
+      internalID: 1260747533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_17
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 304
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4d8506931e2467f908646145a03a44
+      internalID: -123762464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 304
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cbd2268c5934b9aa2171f199312836
+      internalID: -1918978491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_19
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 304
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0570a070f784591bac5ca4e17bc465
+      internalID: 811358537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 304
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e12dd2325a20471782bbe5fc047f907
+      internalID: 560567452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_21
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 304
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3acc37ef99a4082bec9384d5b9762e
+      internalID: -2142780815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_22
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 304
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958c248c259374b8eb912113f145b9c9
+      internalID: -2010428466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_23
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 304
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9de0f5ec767442be9d5f005e14f5eb2
+      internalID: -2072717662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_24
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 304
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ee98169dd084d45ac94dfb36b5cdc3
+      internalID: -1110714422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_25
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 304
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a594af3065a854d8a9e10f38c0cd0b7f
+      internalID: -1247768166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_26
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 244
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f60663c1287424fb51e7d535e4ce87
+      internalID: 1423388230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_27
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 244
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e401696d0f97346448ec2dcbad7124a3
+      internalID: 494106264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_28
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 244
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee7d99252faf4a99a8f00d51d6152e1
+      internalID: 1460621037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 244
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cdf9799863748499341c92cd5895cb
+      internalID: -1017561402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 244
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b1d042194b2449f8072ae88cd37279
+      internalID: -948009008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_31
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 244
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60621299ad4574a988f590baf868032d
+      internalID: 332164883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_32
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 244
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1276da7714a048f2bf81ab1c1b693a5
+      internalID: -205076341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 244
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6897c1f0ab4b45188d6ae6fb1974630
+      internalID: -158606513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_34
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 244
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124d9830f8442402ab6535bcd6dd4198
+      internalID: -1554618387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_35
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 244
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775612d3d93c2443aab1681273239b58
+      internalID: -1170569197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 184
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed03eb59be444d4f87a597ad58d2966
+      internalID: -891927324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_37
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 184
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bef67c47ccc4ac29df1f2ee00deca0
+      internalID: 1290898159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_38
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 184
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec73981898f864ca1afc18d7f64ad27b
+      internalID: -1026635579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 184
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa125e89dc8b436aa522fedcd9d51e8
+      internalID: 1231737868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_40
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 184
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ab8260db6be4072a5eeea311609c29
+      internalID: 1656332308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_41
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 184
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e5665b0f8d44f198d6de0c68383ca4
+      internalID: -251913642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_42
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 184
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f01cc4a587a4bee956880704360417
+      internalID: -818063462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 184
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c16464b9c2b40aeb49a09c0e3ac85a
+      internalID: 89703592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_44
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 184
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54c5bd90c6ed43aeb300688497db42a
+      internalID: 2096530333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_45
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 184
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee849226e7994b4e808b024af998d33
+      internalID: 402041046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_46
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 184
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9671ad12866f49dca03173eea244904
+      internalID: 179207772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_47
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 184
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06c7a5bc43614a46b8d8a59ab839db2
+      internalID: 527144977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_48
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 184
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5676e96ccdd06483dbf544e0f65ba40a
+      internalID: 1758560891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_49
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 124
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052203e582dd14838ba4153e77d56eac
+      internalID: -1398994281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_50
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 124
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f42cc8dfad234bbcac4331eecb10c19
+      internalID: 334898348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_51
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 124
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cd10693f5304abc8f1043ea7cb331c
+      internalID: 1179956434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-letters-7-8x14-preview_52
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 124
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436e6d8b0352a402190b0c55adfcdd71
+      internalID: -2009003189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 79c4c159f41a7463aa9e25185dfe1eb7
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +1291,60 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pixel-letters-7-8x14-preview_0: -4474278572059040451
+      pixel-letters-7-8x14-preview_1: 1311545120
+      pixel-letters-7-8x14-preview_10: -1599551754
+      pixel-letters-7-8x14-preview_11: -241318786
+      pixel-letters-7-8x14-preview_12: -1535967981
+      pixel-letters-7-8x14-preview_13: -287593639
+      pixel-letters-7-8x14-preview_14: 826861513
+      pixel-letters-7-8x14-preview_15: 293498018
+      pixel-letters-7-8x14-preview_16: 1260747533
+      pixel-letters-7-8x14-preview_17: -123762464
+      pixel-letters-7-8x14-preview_18: -1918978491
+      pixel-letters-7-8x14-preview_19: 811358537
+      pixel-letters-7-8x14-preview_2: -263492981
+      pixel-letters-7-8x14-preview_20: 560567452
+      pixel-letters-7-8x14-preview_21: -2142780815
+      pixel-letters-7-8x14-preview_22: -2010428466
+      pixel-letters-7-8x14-preview_23: -2072717662
+      pixel-letters-7-8x14-preview_24: -1110714422
+      pixel-letters-7-8x14-preview_25: -1247768166
+      pixel-letters-7-8x14-preview_26: 1423388230
+      pixel-letters-7-8x14-preview_27: 494106264
+      pixel-letters-7-8x14-preview_28: 1460621037
+      pixel-letters-7-8x14-preview_29: -1017561402
+      pixel-letters-7-8x14-preview_3: -689481774
+      pixel-letters-7-8x14-preview_30: -948009008
+      pixel-letters-7-8x14-preview_31: 332164883
+      pixel-letters-7-8x14-preview_32: -205076341
+      pixel-letters-7-8x14-preview_33: -158606513
+      pixel-letters-7-8x14-preview_34: -1554618387
+      pixel-letters-7-8x14-preview_35: -1170569197
+      pixel-letters-7-8x14-preview_36: -891927324
+      pixel-letters-7-8x14-preview_37: 1290898159
+      pixel-letters-7-8x14-preview_38: -1026635579
+      pixel-letters-7-8x14-preview_39: 1231737868
+      pixel-letters-7-8x14-preview_4: -1874716730
+      pixel-letters-7-8x14-preview_40: 1656332308
+      pixel-letters-7-8x14-preview_41: -251913642
+      pixel-letters-7-8x14-preview_42: -818063462
+      pixel-letters-7-8x14-preview_43: 89703592
+      pixel-letters-7-8x14-preview_44: 2096530333
+      pixel-letters-7-8x14-preview_45: 402041046
+      pixel-letters-7-8x14-preview_46: 179207772
+      pixel-letters-7-8x14-preview_47: 527144977
+      pixel-letters-7-8x14-preview_48: 1758560891
+      pixel-letters-7-8x14-preview_49: -1398994281
+      pixel-letters-7-8x14-preview_5: 1380120296
+      pixel-letters-7-8x14-preview_50: 334898348
+      pixel-letters-7-8x14-preview_51: 1179956434
+      pixel-letters-7-8x14-preview_52: -2009003189
+      pixel-letters-7-8x14-preview_6: -524149455
+      pixel-letters-7-8x14-preview_7: -1989761281
+      pixel-letters-7-8x14-preview_8: 884446770
+      pixel-letters-7-8x14-preview_9: -1210654951
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

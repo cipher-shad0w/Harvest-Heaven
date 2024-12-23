@@ -124,7 +124,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -138,7 +138,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -162,7 +162,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -872,7 +872,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      crops - all_0: -7455853411062165625
+      crops - all_1: 6491916475305925652
+      crops - all_10: 4532080057755952147
+      crops - all_11: 5065768391458761561
+      crops - all_12: 1900126851282781423
+      crops - all_13: 3027494423994646779
+      crops - all_14: 1638643716744589379
+      crops - all_15: 2828316460969557006
+      crops - all_16: -8517778293071628929
+      crops - all_17: 4883162611254261060
+      crops - all_18: -9117818534409839576
+      crops - all_19: -2336787656233302649
+      crops - all_2: -8129651984545274171
+      crops - all_20: 8820877029320697421
+      crops - all_21: -7696392297635391799
+      crops - all_22: -7700157631564488409
+      crops - all_23: 2110264437875571525
+      crops - all_24: 142087458082665828
+      crops - all_25: -5871752243600211268
+      crops - all_26: 7619221027992080592
+      crops - all_27: 5600175487410814964
+      crops - all_28: -7857914527944237572
+      crops - all_29: 9166192253844269286
+      crops - all_3: 8005226687534335053
+      crops - all_4: 4475564145210681097
+      crops - all_5: 5032008028197394732
+      crops - all_6: 7919750047730634564
+      crops - all_7: -7320639650909410923
+      crops - all_8: 7936929632667333882
+      crops - all_9: -824800127769178093
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

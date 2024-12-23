@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -284,7 +284,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dialog box character finished talking click to continue indicator - spritesheet _0: -9167932111408990061
+      dialog box character finished talking click to continue indicator - spritesheet _1: 396171821069622382
+      dialog box character finished talking click to continue indicator - spritesheet _2: -8650636911346301923
+      dialog box character finished talking click to continue indicator - spritesheet _3: 4356220318644341986
+      dialog box character finished talking click to continue indicator - spritesheet _4: -2531294840770068278
+      dialog box character finished talking click to continue indicator - spritesheet _5: 6778000309463110404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

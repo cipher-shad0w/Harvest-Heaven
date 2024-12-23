@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Weather_Icons_smal_freel_0: 6775956574534379552
+      Weather_Icons_smal_freel_1: -182907692760415365
+      Weather_Icons_smal_freel_2: 7406281114226777720
+      Weather_Icons_smal_freel_3: 7832019099362778098
+      Weather_Icons_smal_freel_4: 6445331549394730977
+      Weather_Icons_smal_freel_5: -402265166192758658
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

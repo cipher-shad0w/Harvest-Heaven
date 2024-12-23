@@ -175,7 +175,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -189,7 +189,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -213,7 +213,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1297,7 +1297,54 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      farming n foraging - all_0: 6585551404894131136
+      farming n foraging - all_1: -6707024634718470045
+      farming n foraging - all_10: 1189117107666613236
+      farming n foraging - all_11: -5496348777185519883
+      farming n foraging - all_12: -5219522246467268683
+      farming n foraging - all_13: 724102015133795450
+      farming n foraging - all_14: 5337429432567393782
+      farming n foraging - all_15: -3136020585630797455
+      farming n foraging - all_16: 348903621052336217
+      farming n foraging - all_17: -7456231153854171984
+      farming n foraging - all_18: 1619394600371867396
+      farming n foraging - all_19: -1855139854075433888
+      farming n foraging - all_2: 9158861788194017518
+      farming n foraging - all_20: 3108061357506471812
+      farming n foraging - all_21: 207133923391278312
+      farming n foraging - all_22: -1355429578305698445
+      farming n foraging - all_23: -7585542656176070195
+      farming n foraging - all_24: 323479598212464358
+      farming n foraging - all_25: -4047110576769588565
+      farming n foraging - all_26: 9217956809546336304
+      farming n foraging - all_27: 2778509025668051687
+      farming n foraging - all_28: 5985105675714972342
+      farming n foraging - all_29: -362580494190727635
+      farming n foraging - all_3: -1015466907377317277
+      farming n foraging - all_30: 2827854742884721712
+      farming n foraging - all_31: -8586257958889293418
+      farming n foraging - all_32: 7543211559624650155
+      farming n foraging - all_33: 6290856397033522727
+      farming n foraging - all_34: 6588595102869629590
+      farming n foraging - all_35: -1706579495374732858
+      farming n foraging - all_36: -1057877287435841027
+      farming n foraging - all_37: -1845381512304527076
+      farming n foraging - all_38: 3510224064230883630
+      farming n foraging - all_39: -8214202196121940364
+      farming n foraging - all_4: 1512806090803436940
+      farming n foraging - all_40: -3360573978505492077
+      farming n foraging - all_41: -9104100919300725331
+      farming n foraging - all_42: 2849802567498469265
+      farming n foraging - all_43: 1836275772602421386
+      farming n foraging - all_44: 5368332276037196281
+      farming n foraging - all_45: -5021216437599779441
+      farming n foraging - all_46: 86946625560498807
+      farming n foraging - all_5: -3929210282832488046
+      farming n foraging - all_6: -3034113896253870597
+      farming n foraging - all_7: -3091123446569971342
+      farming n foraging - all_8: 4772069813475469243
+      farming n foraging - all_9: 5207457560552103757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -88,7 +88,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,7 +126,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -572,7 +572,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Inventory_Herat_Spritesheet_0: -936506578383185920
+      Inventory_Herat_Spritesheet_1: 6786222459948640661
+      Inventory_Herat_Spritesheet_10: 326043611663820465
+      Inventory_Herat_Spritesheet_11: 1221043974030749211
+      Inventory_Herat_Spritesheet_12: 1006460177201308907
+      Inventory_Herat_Spritesheet_13: 8481714894555171582
+      Inventory_Herat_Spritesheet_14: 8110247787249641915
+      Inventory_Herat_Spritesheet_15: -1465130776227510938
+      Inventory_Herat_Spritesheet_16: -1062416520663568189
+      Inventory_Herat_Spritesheet_17: 2187501405238891464
+      Inventory_Herat_Spritesheet_2: 7809780377783606931
+      Inventory_Herat_Spritesheet_3: 3158309806815461261
+      Inventory_Herat_Spritesheet_4: 2330573859070129638
+      Inventory_Herat_Spritesheet_5: 5719358714137557274
+      Inventory_Herat_Spritesheet_6: -3126065971367815617
+      Inventory_Herat_Spritesheet_7: 6934560787232902780
+      Inventory_Herat_Spritesheet_8: -7250588411522335761
+      Inventory_Herat_Spritesheet_9: 1516347230432879253
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

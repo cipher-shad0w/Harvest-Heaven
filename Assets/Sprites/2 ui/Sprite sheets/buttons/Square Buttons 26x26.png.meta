@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Square Buttons 26x26_0: -2476932275191213472
+      Square Buttons 26x26_1: -287882081924121010
+      Square Buttons 26x26_2: -7987267596004983246
+      Square Buttons 26x26_3: -6705105495724326696
+      Square Buttons 26x26_4: -5401138528904836096
+      Square Buttons 26x26_5: 474755728798582229
+      Square Buttons 26x26_6: 8041209020178883423
+      Square Buttons 26x26_7: 1262359959758547231
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -61,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -99,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Inventory_Blocks_Spritesheet_0: 4400811417565351755
+      Inventory_Blocks_Spritesheet_1: -5665768054470936916
+      Inventory_Blocks_Spritesheet_2: -7058766558391035033
+      Inventory_Blocks_Spritesheet_3: -2482250231004988559
+      Inventory_Blocks_Spritesheet_4: 2658464420741362946
+      Inventory_Blocks_Spritesheet_5: -5434827792550559909
+      Inventory_Blocks_Spritesheet_6: 8118200262300106799
+      Inventory_Blocks_Spritesheet_7: -6017733155289879417
+      Inventory_Blocks_Spritesheet_8: -2245618319781525362
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

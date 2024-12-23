@@ -79,7 +79,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -117,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -497,7 +497,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      speech_bubble_grey_0: 8867661100803839916
+      speech_bubble_grey_1: -5597396637678953806
+      speech_bubble_grey_10: -8564253388780067902
+      speech_bubble_grey_11: -3339789949229586758
+      speech_bubble_grey_12: 3667161631323713078
+      speech_bubble_grey_13: 8380796816020058226
+      speech_bubble_grey_14: 6133290602260674926
+      speech_bubble_grey_2: 4311376966203985183
+      speech_bubble_grey_3: 5899190256141923002
+      speech_bubble_grey_4: -1552447593744691216
+      speech_bubble_grey_5: -3795014466695538744
+      speech_bubble_grey_6: -5422840080083608988
+      speech_bubble_grey_7: 93402162447537523
+      speech_bubble_grey_8: -6603940031159248359
+      speech_bubble_grey_9: 1297887038168477776
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

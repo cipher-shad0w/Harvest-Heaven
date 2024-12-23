@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chicken left_0: -1336820698679186772
+      Chicken left_1: -8372530962230666136
+      Chicken left_2: 627843936318618976
+      Chicken left_3: -2372874488920028092
+      Chicken left_4: -3276949102676615180
+      Chicken left_5: 1832410358289911651
+      Chicken left_6: -8799940544378653715
+      Chicken left_7: -1716564617654464605
+      Chicken left_8: -978392291176901981
+      Chicken left_9: -1689596737312960308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -79,7 +79,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,7 +93,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -497,7 +497,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stone and Rock_0: 4169403576475248064
+      Stone and Rock_1: -1012578838172530703
+      Stone and Rock_10: 3860874382478923126
+      Stone and Rock_11: -9052527601578257212
+      Stone and Rock_12: -8400943377616895652
+      Stone and Rock_13: 8919150919235582830
+      Stone and Rock_14: 7266525403344031891
+      Stone and Rock_2: -5360025267050557785
+      Stone and Rock_3: -102823161316948575
+      Stone and Rock_4: 5013069417426673057
+      Stone and Rock_5: -723069870433265959
+      Stone and Rock_6: 4838217121669799627
+      Stone and Rock_7: 1943354858167720246
+      Stone and Rock_8: 2069367704381870292
+      Stone and Rock_9: -3536889861156178378
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

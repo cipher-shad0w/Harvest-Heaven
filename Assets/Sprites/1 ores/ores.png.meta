@@ -1,31 +1,40 @@
 fileFormatVersion: 2
-guid: e0b7fcd14232045618df7afc9b61767e
+guid: 7f6ec52e504d44bb6a592c5c5d5cbe6c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -16793423984005362
-    second: gems_0
+      213: -7445251177295232660
+    second: ores_0
   - first:
-      213: -4672790576089934573
-    second: gems_1
+      213: -1994067193690870337
+    second: ores_1
   - first:
-      213: 3598714856469743548
-    second: gems_2
+      213: -8848367019164464449
+    second: ores_2
   - first:
-      213: -2511356291957038328
-    second: gems_3
+      213: 6122139367658508819
+    second: ores_3
   - first:
-      213: -7335531085601356040
-    second: gems_4
+      213: 5877696100643089304
+    second: ores_4
   - first:
-      213: 8486993253046354261
-    second: gems_5
+      213: -6752915232109121509
+    second: ores_5
   - first:
-      213: 5840603745321418647
-    second: gems_6
+      213: -1968840719456152539
+    second: ores_6
   - first:
-      213: -7995427946482172144
-    second: gems_7
+      213: -4381812301800334281
+    second: ores_7
+  - first:
+      213: 3980307627822178394
+    second: ores_8
+  - first:
+      213: 482485394193971003
+    second: ores_9
+  - first:
+      213: -6332166770112583456
+    second: ores_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,13 +143,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gems_0
+      name: ores_0
       rect:
         serializedVersion: 2
         x: 1
-        y: 17
-        width: 15
-        height: 15
+        y: 33
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,19 +158,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e0feed8487654cff0800000000000000
-      internalID: -16793423984005362
+      spriteID: c6142c930872da890800000000000000
+      internalID: -7445251177295232660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gems_1
+      name: ores_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 17
-        width: 15
+        x: 18
+        y: 33
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdabcdc376a354e0800000000000000
+      internalID: -1994067193690870337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ores_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 14
         height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -171,17 +202,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 315dd528ab9e62fb0800000000000000
-      internalID: -4672790576089934573
+      spriteID: fba8b64a319443580800000000000000
+      internalID: -8848367019164464449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gems_2
+      name: ores_3
       rect:
         serializedVersion: 2
-        x: 33
+        x: 1
         y: 17
         width: 14
         height: 14
@@ -193,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb7cccb581431f130800000000000000
-      internalID: 3598714856469743548
+      spriteID: 31258b2815536f450800000000000000
+      internalID: 6122139367658508819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gems_3
+      name: ores_4
       rect:
         serializedVersion: 2
-        x: 50
-        y: 18
+        x: 18
+        y: 17
         width: 12
-        height: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,41 +246,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 803657912ced52dd0800000000000000
-      internalID: -2511356291957038328
+      spriteID: 89ba7805675c19150800000000000000
+      internalID: 5877696100643089304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gems_4
+      name: ores_5
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f645ebc755f23a90800000000000000
-      internalID: -7335531085601356040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gems_5
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 1
-        width: 15
+        x: 33
+        y: 17
+        width: 14
         height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -259,14 +268,80 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55107fac56bd7c570800000000000000
-      internalID: 8486993253046354261
+      spriteID: b10bfc7ff53d842a0800000000000000
+      internalID: -6752915232109121509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gems_6
+      name: ores_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524dd790cc54da4e0800000000000000
+      internalID: -1968840719456152539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ores_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c11c66deca033c0800000000000000
+      internalID: -4381812301800334281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ores_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a506e1de2b4ec3730800000000000000
+      internalID: 3980307627822178394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ores_9
       rect:
         serializedVersion: 2
         x: 33
@@ -281,20 +356,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79ff2b9592efd0150800000000000000
-      internalID: 5840603745321418647
+      spriteID: b37fe32e8e122b600800000000000000
+      internalID: 482485394193971003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gems_7
+      name: ores_10
       rect:
         serializedVersion: 2
-        x: 50
-        y: 2
-        width: 12
-        height: 12
+        x: 49
+        y: 1
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,8 +378,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01ff2bee4a88a0190800000000000000
-      internalID: -7995427946482172144
+      spriteID: 0e828e03fdf9f18a0800000000000000
+      internalID: -6332166770112583456
       vertices: []
       indices: 
       edges: []
@@ -322,7 +397,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ores_0: -7445251177295232660
+      ores_1: -1994067193690870337
+      ores_10: -6332166770112583456
+      ores_2: -8848367019164464449
+      ores_3: 6122139367658508819
+      ores_4: 5877696100643089304
+      ores_5: -6752915232109121509
+      ores_6: -1968840719456152539
+      ores_7: -4381812301800334281
+      ores_8: 3980307627822178394
+      ores_9: 482485394193971003
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
