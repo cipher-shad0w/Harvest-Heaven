@@ -65,7 +65,7 @@
     <Analyzer Include="/Users/janniskrija/Applications/6000.0.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/PlayerController.cs" />
+    <Compile Include="Assets/Scripts/PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Sprites/2 tileset/read_me.txt" />
@@ -73,6 +73,7 @@
     <None Include="Assets/Sprites/1 character/Read Me.txt" />
     <None Include="Assets/Sprites/2 ui/read_me.txt" />
     <None Include="Assets/Sprites/1 tileset/Read Me.txt" />
+    <None Include="Assets/Sprites/main sprites/read_me.txt" />
     <None Include="Assets/Sprites/0 tileset/read me.txt" />
     <None Include="Assets/Sprites/1 ores/Read Me.txt" />
     <None Include="Assets/Sprites/1 animals/Read Me.txt" />

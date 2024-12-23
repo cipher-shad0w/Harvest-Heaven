@@ -1,55 +1,58 @@
 fileFormatVersion: 2
-guid: f2c67a2efc7334a3c90abc42204d5587
+guid: 4b5a01037b9e84eda88831f9ba6eefe5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7595986285605212588
-    second: Basic Charakter Spritesheet_0
+      213: 5290226853113492816
+    second: Fence gates animation sprites _0
   - first:
-      213: 533925764876870624
-    second: Basic Charakter Spritesheet_1
+      213: -1819395041842504699
+    second: Fence gates animation sprites _1
   - first:
-      213: 3373380426956494817
-    second: Basic Charakter Spritesheet_2
+      213: 4645211932390752997
+    second: Fence gates animation sprites _2
   - first:
-      213: 459816943466525491
-    second: Basic Charakter Spritesheet_3
+      213: -8882675143833133675
+    second: Fence gates animation sprites _3
   - first:
-      213: 5902472224145541201
-    second: Basic Charakter Spritesheet_4
+      213: -408433506663950549
+    second: Fence gates animation sprites _4
   - first:
-      213: 5704146936193991084
-    second: Basic Charakter Spritesheet_5
+      213: -4552635912289091637
+    second: Fence gates animation sprites _5
   - first:
-      213: -5312978444038240032
-    second: Basic Charakter Spritesheet_6
+      213: 7174240260807486979
+    second: Fence gates animation sprites _6
   - first:
-      213: 1494002176974529289
-    second: Basic Charakter Spritesheet_7
+      213: 9058182395099197873
+    second: Fence gates animation sprites _7
   - first:
-      213: 1518413977272292722
-    second: Basic Charakter Spritesheet_8
+      213: 2663722575922453193
+    second: Fence gates animation sprites _8
   - first:
-      213: 1804082577669914558
-    second: Basic Charakter Spritesheet_9
+      213: -3236316546915117464
+    second: Fence gates animation sprites _9
   - first:
-      213: -3681317567185701923
-    second: Basic Charakter Spritesheet_10
+      213: 7928655351209116113
+    second: Fence gates animation sprites _10
   - first:
-      213: -1238460308712774548
-    second: Basic Charakter Spritesheet_11
+      213: 918989112134975145
+    second: Fence gates animation sprites _11
   - first:
-      213: 4608324168894639126
-    second: Basic Charakter Spritesheet_12
+      213: -3320128158097764637
+    second: Fence gates animation sprites _12
   - first:
-      213: 3328763754989776407
-    second: Basic Charakter Spritesheet_13
+      213: -1896664000243221979
+    second: Fence gates animation sprites _13
   - first:
-      213: 2184765777873843538
-    second: Basic Charakter Spritesheet_14
+      213: -1193688425843552191
+    second: Fence gates animation sprites _14
   - first:
-      213: 5942205801420598518
-    second: Basic Charakter Spritesheet_15
+      213: -8871367747980998994
+    second: Fence gates animation sprites _15
+  - first:
+      213: -6987644524951729993
+    second: Fence gates animation sprites _16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -82,7 +85,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +99,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +123,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -158,13 +161,277 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_0
+      name: Fence gates animation sprites _0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 159
+        x: 4
+        y: 65
+        width: 56
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055ff094b49aa6940800000000000000
+      internalID: 5290226853113492816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 65
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50cded859d530c6e0800000000000000
+      internalID: -1819395041842504699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 65
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e28e8024ab177040800000000000000
+      internalID: 4645211932390752997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 65
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d52a4e4066ab480800000000000000
+      internalID: -8882675143833133675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 65
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b279de0c3e3f45af0800000000000000
+      internalID: -408433506663950549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 65
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf725832c9c1d0c0800000000000000
+      internalID: -4552635912289091637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 65
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e6cb6a185009360800000000000000
+      internalID: 7174240260807486979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _7
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 65
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1b59265e025bd70800000000000000
+      internalID: 9058182395099197873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 65
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cadb0ed19177f420800000000000000
+      internalID: 2663722575922453193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 8
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866d7605f3b4613d0800000000000000
+      internalID: -3236316546915117464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1
+        width: 10
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1c15bb80e380e60800000000000000
+      internalID: 7928655351209116113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _11
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 31
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aeb14d7ab7e0cc00800000000000000
+      internalID: 918989112134975145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 35
         width: 16
-        height: 18
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +440,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca1dc30184d5a6960800000000000000
-      internalID: 7595986285605212588
+      spriteID: 3ee8fcfe7098ce1d0800000000000000
+      internalID: -3320128158097764637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_1
+      name: Fence gates animation sprites _13
       rect:
         serializedVersion: 2
-        x: 64
-        y: 159
+        x: 132
+        y: 36
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a3b370422bda5e0800000000000000
+      internalID: -1896664000243221979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140991d73ba2f6fe0800000000000000
+      internalID: -1193688425843552191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence gates animation sprites _15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
         width: 16
-        height: 18
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +506,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e32aef77a2e86700800000000000000
-      internalID: 533925764876870624
+      spriteID: ea64cb5290292e480800000000000000
+      internalID: -8871367747980998994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_2
+      name: Fence gates animation sprites _16
       rect:
         serializedVersion: 2
-        x: 112
-        y: 159
-        width: 16
-        height: 18
+        x: 132
+        y: 1
+        width: 17
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,294 +528,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e75ff810a7a0de20800000000000000
-      internalID: 3373380426956494817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 159
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3333709e219916600800000000000000
-      internalID: 459816943466525491
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 111
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1580ec8173bc9e150800000000000000
-      internalID: 5902472224145541201
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 111
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca1c976aa63392f40800000000000000
-      internalID: 5704146936193991084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 111
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e80bc721428446b0800000000000000
-      internalID: -5312978444038240032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 111
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9032a3c7013cbb410800000000000000
-      internalID: 1494002176974529289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_8
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 63
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2759d49a77d721510800000000000000
-      internalID: 1518413977272292722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_9
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 63
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebf7c73cb83690910800000000000000
-      internalID: 1804082577669914558
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_10
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 63
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd3bd765d2559ecc0800000000000000
-      internalID: -3681317567185701923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 63
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6421ce29ea10dee0800000000000000
-      internalID: -1238460308712774548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_12
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 15
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 61cefc86a6e04ff30800000000000000
-      internalID: 4608324168894639126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_13
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 15
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 71e6c55aff4223e20800000000000000
-      internalID: 3328763754989776407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 15
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 255b99b46e8d15e10800000000000000
-      internalID: 2184765777873843538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_15
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 15
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fca0f771b4f67250800000000000000
-      internalID: 5942205801420598518
+      spriteID: 7b88c81a356e60f90800000000000000
+      internalID: -6987644524951729993
       vertices: []
       indices: 
       edges: []
@@ -522,23 +547,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Basic Charakter Spritesheet_0: 7595986285605212588
-      Basic Charakter Spritesheet_1: 533925764876870624
-      Basic Charakter Spritesheet_10: -3681317567185701923
-      Basic Charakter Spritesheet_11: -1238460308712774548
-      Basic Charakter Spritesheet_12: 4608324168894639126
-      Basic Charakter Spritesheet_13: 3328763754989776407
-      Basic Charakter Spritesheet_14: 2184765777873843538
-      Basic Charakter Spritesheet_15: 5942205801420598518
-      Basic Charakter Spritesheet_2: 3373380426956494817
-      Basic Charakter Spritesheet_3: 459816943466525491
-      Basic Charakter Spritesheet_4: 5902472224145541201
-      Basic Charakter Spritesheet_5: 5704146936193991084
-      Basic Charakter Spritesheet_6: -5312978444038240032
-      Basic Charakter Spritesheet_7: 1494002176974529289
-      Basic Charakter Spritesheet_8: 1518413977272292722
-      Basic Charakter Spritesheet_9: 1804082577669914558
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

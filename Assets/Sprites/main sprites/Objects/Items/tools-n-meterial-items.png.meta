@@ -1,55 +1,43 @@
 fileFormatVersion: 2
-guid: f2c67a2efc7334a3c90abc42204d5587
+guid: 03d06e044c65e46e9b93b71c365b1576
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7595986285605212588
-    second: Basic Charakter Spritesheet_0
+      213: -7178645108241483569
+    second: tools-n-meterial-items_0
   - first:
-      213: 533925764876870624
-    second: Basic Charakter Spritesheet_1
+      213: 657875912277218462
+    second: tools-n-meterial-items_1
   - first:
-      213: 3373380426956494817
-    second: Basic Charakter Spritesheet_2
+      213: -2243613801348123288
+    second: tools-n-meterial-items_2
   - first:
-      213: 459816943466525491
-    second: Basic Charakter Spritesheet_3
+      213: -8573652189418947830
+    second: tools-n-meterial-items_3
   - first:
-      213: 5902472224145541201
-    second: Basic Charakter Spritesheet_4
+      213: -8106913210018680474
+    second: tools-n-meterial-items_4
   - first:
-      213: 5704146936193991084
-    second: Basic Charakter Spritesheet_5
+      213: 6360211573912825503
+    second: tools-n-meterial-items_5
   - first:
-      213: -5312978444038240032
-    second: Basic Charakter Spritesheet_6
+      213: 6190929539175263633
+    second: tools-n-meterial-items_6
   - first:
-      213: 1494002176974529289
-    second: Basic Charakter Spritesheet_7
+      213: -5021814089683610241
+    second: tools-n-meterial-items_7
   - first:
-      213: 1518413977272292722
-    second: Basic Charakter Spritesheet_8
+      213: 7111032524758626546
+    second: tools-n-meterial-items_8
   - first:
-      213: 1804082577669914558
-    second: Basic Charakter Spritesheet_9
+      213: -5285907213357799089
+    second: tools-n-meterial-items_9
   - first:
-      213: -3681317567185701923
-    second: Basic Charakter Spritesheet_10
+      213: -3241330841805255547
+    second: tools-n-meterial-items_10
   - first:
-      213: -1238460308712774548
-    second: Basic Charakter Spritesheet_11
-  - first:
-      213: 4608324168894639126
-    second: Basic Charakter Spritesheet_12
-  - first:
-      213: 3328763754989776407
-    second: Basic Charakter Spritesheet_13
-  - first:
-      213: 2184765777873843538
-    second: Basic Charakter Spritesheet_14
-  - first:
-      213: 5942205801420598518
-    second: Basic Charakter Spritesheet_15
+      213: 4691911435948503463
+    second: tools-n-meterial-items_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -82,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -158,13 +146,123 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_0
+      name: tools-n-meterial-items_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8bba2ee44506c90800000000000000
+      internalID: -7178645108241483569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tools-n-meterial-items_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 31
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94d19918ae312900800000000000000
+      internalID: 657875912277218462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tools-n-meterial-items_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 32
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8653b7582251dd0e0800000000000000
+      internalID: -2243613801348123288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tools-n-meterial-items_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 32
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0bfee542c4440980800000000000000
+      internalID: -8573652189418947830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tools-n-meterial-items_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6613ae343657e7f80800000000000000
+      internalID: -8106913210018680474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tools-n-meterial-items_5
       rect:
         serializedVersion: 2
         x: 16
-        y: 159
-        width: 16
-        height: 18
+        y: 16
+        width: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca1dc30184d5a6960800000000000000
-      internalID: 7595986285605212588
+      spriteID: f9ee6678ab2044850800000000000000
+      internalID: 6360211573912825503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_1
+      name: tools-n-meterial-items_6
       rect:
         serializedVersion: 2
-        x: 64
-        y: 159
+        x: 32
+        y: 16
         width: 16
-        height: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +293,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e32aef77a2e86700800000000000000
-      internalID: 533925764876870624
+      spriteID: 19da30c6d999ae550800000000000000
+      internalID: 6190929539175263633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_2
+      name: tools-n-meterial-items_7
       rect:
         serializedVersion: 2
-        x: 112
-        y: 159
-        width: 16
-        height: 18
+        x: 49
+        y: 17
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +315,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e75ff810a7a0de20800000000000000
-      internalID: 3373380426956494817
+      spriteID: f755b5031beee4ab0800000000000000
+      internalID: -5021814089683610241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_3
+      name: tools-n-meterial-items_8
       rect:
         serializedVersion: 2
-        x: 160
-        y: 159
-        width: 16
-        height: 18
+        x: 0
+        y: 0
+        width: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +337,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3333709e219916600800000000000000
-      internalID: 459816943466525491
+      spriteID: 2f0bc78c7667fa260800000000000000
+      internalID: 7111032524758626546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_4
+      name: tools-n-meterial-items_9
       rect:
         serializedVersion: 2
         x: 16
-        y: 111
+        y: 0
         width: 16
-        height: 18
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +359,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1580ec8173bc9e150800000000000000
-      internalID: 5902472224145541201
+      spriteID: f492228356fa4a6b0800000000000000
+      internalID: -5285907213357799089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_5
+      name: tools-n-meterial-items_10
       rect:
         serializedVersion: 2
-        x: 64
-        y: 111
-        width: 16
-        height: 18
+        x: 31
+        y: 0
+        width: 18
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +381,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca1c976aa63392f40800000000000000
-      internalID: 5704146936193991084
+      spriteID: 58c0eaec5ca7403d0800000000000000
+      internalID: -3241330841805255547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Basic Charakter Spritesheet_6
+      name: tools-n-meterial-items_11
       rect:
         serializedVersion: 2
-        x: 112
-        y: 111
-        width: 16
-        height: 18
+        x: 49
+        y: 1
+        width: 14
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,206 +403,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e80bc721428446b0800000000000000
-      internalID: -5312978444038240032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 111
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9032a3c7013cbb410800000000000000
-      internalID: 1494002176974529289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_8
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 63
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2759d49a77d721510800000000000000
-      internalID: 1518413977272292722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_9
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 63
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ebf7c73cb83690910800000000000000
-      internalID: 1804082577669914558
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_10
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 63
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd3bd765d2559ecc0800000000000000
-      internalID: -3681317567185701923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 63
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6421ce29ea10dee0800000000000000
-      internalID: -1238460308712774548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_12
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 15
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 61cefc86a6e04ff30800000000000000
-      internalID: 4608324168894639126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_13
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 15
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 71e6c55aff4223e20800000000000000
-      internalID: 3328763754989776407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 15
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 255b99b46e8d15e10800000000000000
-      internalID: 2184765777873843538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Basic Charakter Spritesheet_15
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 15
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fca0f771b4f67250800000000000000
-      internalID: 5942205801420598518
+      spriteID: 7a1bd4997940d1140800000000000000
+      internalID: 4691911435948503463
       vertices: []
       indices: 
       edges: []
@@ -522,23 +422,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Basic Charakter Spritesheet_0: 7595986285605212588
-      Basic Charakter Spritesheet_1: 533925764876870624
-      Basic Charakter Spritesheet_10: -3681317567185701923
-      Basic Charakter Spritesheet_11: -1238460308712774548
-      Basic Charakter Spritesheet_12: 4608324168894639126
-      Basic Charakter Spritesheet_13: 3328763754989776407
-      Basic Charakter Spritesheet_14: 2184765777873843538
-      Basic Charakter Spritesheet_15: 5942205801420598518
-      Basic Charakter Spritesheet_2: 3373380426956494817
-      Basic Charakter Spritesheet_3: 459816943466525491
-      Basic Charakter Spritesheet_4: 5902472224145541201
-      Basic Charakter Spritesheet_5: 5704146936193991084
-      Basic Charakter Spritesheet_6: -5312978444038240032
-      Basic Charakter Spritesheet_7: 1494002176974529289
-      Basic Charakter Spritesheet_8: 1518413977272292722
-      Basic Charakter Spritesheet_9: 1804082577669914558
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
