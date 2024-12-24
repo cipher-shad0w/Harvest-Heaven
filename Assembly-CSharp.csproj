@@ -65,6 +65,7 @@
     <Analyzer Include="/Users/janniskrija/Applications/6000.0.28f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Water.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>

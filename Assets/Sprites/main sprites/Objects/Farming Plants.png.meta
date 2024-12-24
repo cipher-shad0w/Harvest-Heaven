@@ -196,7 +196,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -210,7 +210,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -234,7 +234,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1472,7 +1472,61 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Farming Plants_0: 6194069981415278876
+      Farming Plants_1: 1302930124755786175
+      Farming Plants_10: 136203948458210870
+      Farming Plants_11: -1975231421049208761
+      Farming Plants_12: -7682574386745198715
+      Farming Plants_13: 2296300339379097373
+      Farming Plants_14: 837022769627655913
+      Farming Plants_15: 2738774946353408788
+      Farming Plants_16: -666210954468627096
+      Farming Plants_17: 1774109583823818138
+      Farming Plants_18: -3183003883038844764
+      Farming Plants_19: -8813222334067813782
+      Farming Plants_2: -7528199513585423542
+      Farming Plants_20: 3220655293762564766
+      Farming Plants_21: 8170261900100007297
+      Farming Plants_22: -3231000803385817452
+      Farming Plants_23: 1818892797483825402
+      Farming Plants_24: 6499908242938464321
+      Farming Plants_25: 2072862404122990272
+      Farming Plants_26: -1102263230651182495
+      Farming Plants_27: 1881330961402987585
+      Farming Plants_28: 3392196742602721534
+      Farming Plants_29: -797183112896774214
+      Farming Plants_3: 736865317306615500
+      Farming Plants_30: -8226948184702604985
+      Farming Plants_31: -4471035681727069231
+      Farming Plants_32: -7536419532554554813
+      Farming Plants_33: -261361533921887324
+      Farming Plants_34: -7051298420961986638
+      Farming Plants_35: 9113586584930331469
+      Farming Plants_36: -972495551902887074
+      Farming Plants_37: 6849194982135307561
+      Farming Plants_38: -7057375707926749745
+      Farming Plants_39: 7047291313409791736
+      Farming Plants_4: 3482569451149137530
+      Farming Plants_40: 7608346437684365089
+      Farming Plants_41: -3568057398433270251
+      Farming Plants_42: -2154233836028310421
+      Farming Plants_43: 1135652761176964885
+      Farming Plants_44: 8764029024336308573
+      Farming Plants_45: 148012229996709633
+      Farming Plants_46: -7574556534369598227
+      Farming Plants_47: 6165657481621290884
+      Farming Plants_48: 826091489802236462
+      Farming Plants_49: 4992162155970904034
+      Farming Plants_5: -5784410927573482350
+      Farming Plants_50: 2340613614041932094
+      Farming Plants_51: -2227832012819510273
+      Farming Plants_52: -7827499416449815192
+      Farming Plants_53: 4513640947493604732
+      Farming Plants_6: 7448935753994061408
+      Farming Plants_7: 1116706725642825598
+      Farming Plants_8: 8796380703106566107
+      Farming Plants_9: -3098547097148736168
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

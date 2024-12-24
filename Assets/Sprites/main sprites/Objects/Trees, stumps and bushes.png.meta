@@ -127,7 +127,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -141,7 +141,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -165,7 +165,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -897,7 +897,38 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Trees, stumps and bushes_0: -5579743417611397328
+      Trees, stumps and bushes_1: 8743770235792392289
+      Trees, stumps and bushes_10: -2145850865286498004
+      Trees, stumps and bushes_11: 3427901759033912765
+      Trees, stumps and bushes_12: -6924567606925549394
+      Trees, stumps and bushes_13: -9130829611487989354
+      Trees, stumps and bushes_14: 4593401978929152357
+      Trees, stumps and bushes_15: -4984741858163755934
+      Trees, stumps and bushes_16: 3433423990023837292
+      Trees, stumps and bushes_17: -6299325439923391312
+      Trees, stumps and bushes_18: -30757173560343757
+      Trees, stumps and bushes_19: -2030407101928326500
+      Trees, stumps and bushes_2: 672647409237720618
+      Trees, stumps and bushes_20: -3661892539640780235
+      Trees, stumps and bushes_21: 4392802101736879663
+      Trees, stumps and bushes_22: -8033865842536669582
+      Trees, stumps and bushes_23: 47115720017416394
+      Trees, stumps and bushes_24: 7726854933826935935
+      Trees, stumps and bushes_25: -4003608752731276888
+      Trees, stumps and bushes_26: -3041991746476229973
+      Trees, stumps and bushes_27: -3229744769753236759
+      Trees, stumps and bushes_28: -7556414797353108329
+      Trees, stumps and bushes_29: 2281925459106457270
+      Trees, stumps and bushes_3: 6827427860541264962
+      Trees, stumps and bushes_30: -2306525047669428402
+      Trees, stumps and bushes_4: 6196599850040437929
+      Trees, stumps and bushes_5: 887620231642604409
+      Trees, stumps and bushes_6: 164194451464133973
+      Trees, stumps and bushes_7: -9040168456141852861
+      Trees, stumps and bushes_8: 4914638883947591303
+      Trees, stumps and bushes_9: -4778790037128270620
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

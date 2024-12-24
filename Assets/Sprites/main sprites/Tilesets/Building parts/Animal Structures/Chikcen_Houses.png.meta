@@ -79,7 +79,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,7 +93,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -497,7 +497,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chikcen_Houses_0: 3472621088836506406
+      Chikcen_Houses_1: 6848912588789692996
+      Chikcen_Houses_10: -8988541385948414575
+      Chikcen_Houses_11: -3290711832099932435
+      Chikcen_Houses_12: -2040404465653312249
+      Chikcen_Houses_13: 3902683545405194118
+      Chikcen_Houses_14: 9143506336078897727
+      Chikcen_Houses_2: 4185578170567565313
+      Chikcen_Houses_3: 5650733864284401377
+      Chikcen_Houses_4: -7316783412699494778
+      Chikcen_Houses_5: 5525715836545753202
+      Chikcen_Houses_6: -746093420795464808
+      Chikcen_Houses_7: 6300644167512908564
+      Chikcen_Houses_8: 9177739144865733580
+      Chikcen_Houses_9: -8666943464190533745
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
