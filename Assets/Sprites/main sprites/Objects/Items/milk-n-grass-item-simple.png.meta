@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      milk-n-grass-item-simple_0: 8815495891694905855
+      milk-n-grass-item-simple_1: -1443028083599769136
+      milk-n-grass-item-simple_2: 9199247751420650470
+      milk-n-grass-item-simple_3: -1621340587286962615
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chicken_Egg_Animations_GifPreview_0: 2343395330277119678
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

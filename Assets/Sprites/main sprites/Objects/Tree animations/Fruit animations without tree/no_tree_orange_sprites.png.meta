@@ -1822,7 +1822,75 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      no_tree_orange_sprites_0: 3312364526575895601
+      no_tree_orange_sprites_1: -2966252861026744097
+      no_tree_orange_sprites_10: 5154473084093825625
+      no_tree_orange_sprites_11: -7437137935795107829
+      no_tree_orange_sprites_12: -5794873225608876615
+      no_tree_orange_sprites_13: 4104951259694354743
+      no_tree_orange_sprites_14: -5629879519409630772
+      no_tree_orange_sprites_15: -5434839257281154287
+      no_tree_orange_sprites_16: 8132807540610279289
+      no_tree_orange_sprites_17: 7496922419495400725
+      no_tree_orange_sprites_18: 8923676963354382523
+      no_tree_orange_sprites_19: -4506030547078424289
+      no_tree_orange_sprites_2: 9099695736113531738
+      no_tree_orange_sprites_20: 9044677777754756422
+      no_tree_orange_sprites_21: -7089424725201224317
+      no_tree_orange_sprites_22: -6531787122846942323
+      no_tree_orange_sprites_23: 3826919465530281548
+      no_tree_orange_sprites_24: -4454124380341864241
+      no_tree_orange_sprites_25: 5592189599500195461
+      no_tree_orange_sprites_26: -2603060646742835568
+      no_tree_orange_sprites_27: 2184080708513525160
+      no_tree_orange_sprites_28: 5859706390108846135
+      no_tree_orange_sprites_29: -6403044770699355089
+      no_tree_orange_sprites_3: -837096067473005341
+      no_tree_orange_sprites_30: 4714846989713615616
+      no_tree_orange_sprites_31: 663025937131798219
+      no_tree_orange_sprites_32: -6382222280421452486
+      no_tree_orange_sprites_33: -1047993433166748454
+      no_tree_orange_sprites_34: -1731692123992723461
+      no_tree_orange_sprites_35: 4625841782293126366
+      no_tree_orange_sprites_36: -6447858982653345046
+      no_tree_orange_sprites_37: -6173056498998662768
+      no_tree_orange_sprites_38: 5759693938062407043
+      no_tree_orange_sprites_39: 2620918064691538938
+      no_tree_orange_sprites_4: 4660404013536128700
+      no_tree_orange_sprites_40: -5171912317060793925
+      no_tree_orange_sprites_41: -8542574424641898966
+      no_tree_orange_sprites_42: 5908020955674737114
+      no_tree_orange_sprites_43: -7294675729427459491
+      no_tree_orange_sprites_44: -7441734270361366599
+      no_tree_orange_sprites_45: -3311671810761464721
+      no_tree_orange_sprites_46: -4403342498982373244
+      no_tree_orange_sprites_47: 3904650512161291203
+      no_tree_orange_sprites_48: -7946052758062980617
+      no_tree_orange_sprites_49: 8971454100200180847
+      no_tree_orange_sprites_5: 2876738661307572384
+      no_tree_orange_sprites_50: -1579245174606573830
+      no_tree_orange_sprites_51: -4011560153139431065
+      no_tree_orange_sprites_52: 9180233152534787961
+      no_tree_orange_sprites_53: -4224043639729213805
+      no_tree_orange_sprites_54: 5069483115387371560
+      no_tree_orange_sprites_55: -6366795240927852277
+      no_tree_orange_sprites_56: 7227459898947184275
+      no_tree_orange_sprites_57: -8848041420432299115
+      no_tree_orange_sprites_58: -1815460546609523797
+      no_tree_orange_sprites_59: 2235047703827982660
+      no_tree_orange_sprites_6: -7598972363229862972
+      no_tree_orange_sprites_60: 1656248156989712480
+      no_tree_orange_sprites_61: -125782646262380854
+      no_tree_orange_sprites_62: 2428434829466314151
+      no_tree_orange_sprites_63: 3404801578821316584
+      no_tree_orange_sprites_64: 6255370756716302001
+      no_tree_orange_sprites_65: 7130277091679027665
+      no_tree_orange_sprites_66: 7357143653428171309
+      no_tree_orange_sprites_67: -9174181159161672590
+      no_tree_orange_sprites_7: -3582158158650783867
+      no_tree_orange_sprites_8: -2569703405375443869
+      no_tree_orange_sprites_9: 3508820971473981775
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

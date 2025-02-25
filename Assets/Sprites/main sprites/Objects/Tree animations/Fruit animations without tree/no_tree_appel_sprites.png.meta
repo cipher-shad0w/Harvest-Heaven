@@ -1772,7 +1772,73 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      no_tree_appel_sprites_0: -7382200648863895587
+      no_tree_appel_sprites_1: -8484964064623024435
+      no_tree_appel_sprites_10: 3187991387185740588
+      no_tree_appel_sprites_11: 4733081540529311889
+      no_tree_appel_sprites_12: 3226715508641679986
+      no_tree_appel_sprites_13: -408379857625188232
+      no_tree_appel_sprites_14: -3403434041340906714
+      no_tree_appel_sprites_15: -440746472172575872
+      no_tree_appel_sprites_16: 8013363068358425587
+      no_tree_appel_sprites_17: 4194383127442290986
+      no_tree_appel_sprites_18: 3840526982061353580
+      no_tree_appel_sprites_19: -7934807223005058245
+      no_tree_appel_sprites_2: -3164799044130434495
+      no_tree_appel_sprites_20: -3473034765822734422
+      no_tree_appel_sprites_21: -7926997918410444956
+      no_tree_appel_sprites_22: -7662685130220359349
+      no_tree_appel_sprites_23: 1611554458790170547
+      no_tree_appel_sprites_24: -5235021917883743588
+      no_tree_appel_sprites_25: -5424182280085849042
+      no_tree_appel_sprites_26: -6833340518508078871
+      no_tree_appel_sprites_27: -2906563142939172795
+      no_tree_appel_sprites_28: -9164551951678236947
+      no_tree_appel_sprites_29: 2480065120368495592
+      no_tree_appel_sprites_3: 11340341425701925
+      no_tree_appel_sprites_30: 8447868920697360211
+      no_tree_appel_sprites_31: 2813605712332843163
+      no_tree_appel_sprites_32: -3276986473930614541
+      no_tree_appel_sprites_33: 2906860374868831336
+      no_tree_appel_sprites_34: -2264908379431112040
+      no_tree_appel_sprites_35: 1401320777209984997
+      no_tree_appel_sprites_36: -8141123714227227505
+      no_tree_appel_sprites_37: 485082149627819264
+      no_tree_appel_sprites_38: 3846733253759431094
+      no_tree_appel_sprites_39: 6490885373311488360
+      no_tree_appel_sprites_4: 2327017353882721747
+      no_tree_appel_sprites_40: 1979162832436633884
+      no_tree_appel_sprites_41: 2816646841742290054
+      no_tree_appel_sprites_42: 2366553029370375032
+      no_tree_appel_sprites_43: 5503831735413557684
+      no_tree_appel_sprites_44: -6196553291334310156
+      no_tree_appel_sprites_45: -3604999697370882660
+      no_tree_appel_sprites_46: 7318171148240578155
+      no_tree_appel_sprites_47: -5909670147569821215
+      no_tree_appel_sprites_48: -2318264264343616011
+      no_tree_appel_sprites_49: 7346614223874482339
+      no_tree_appel_sprites_5: 3765402621897628330
+      no_tree_appel_sprites_50: -1403121125080824013
+      no_tree_appel_sprites_51: -491562085759490962
+      no_tree_appel_sprites_52: -2682697007215352035
+      no_tree_appel_sprites_53: 2757627289270927977
+      no_tree_appel_sprites_54: 910204251873479176
+      no_tree_appel_sprites_55: -4208218291683895168
+      no_tree_appel_sprites_56: -633280100178741752
+      no_tree_appel_sprites_57: -5329126068471095101
+      no_tree_appel_sprites_58: 3073661324420668771
+      no_tree_appel_sprites_59: -790336574227603442
+      no_tree_appel_sprites_6: 483499563158062186
+      no_tree_appel_sprites_60: 3252563905400642444
+      no_tree_appel_sprites_61: 4489486503828168975
+      no_tree_appel_sprites_62: -1653600834075588044
+      no_tree_appel_sprites_63: 3458446254755693602
+      no_tree_appel_sprites_64: -2035964113331239501
+      no_tree_appel_sprites_65: -2470516931687183358
+      no_tree_appel_sprites_7: -4869409051455311595
+      no_tree_appel_sprites_8: 8299280973025943480
+      no_tree_appel_sprites_9: -8642421453978103642
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
