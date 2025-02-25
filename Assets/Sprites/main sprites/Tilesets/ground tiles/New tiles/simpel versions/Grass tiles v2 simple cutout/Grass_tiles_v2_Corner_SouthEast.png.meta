@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Grass_tiles_v2_Corner_SouthEast_0: 6815409809778013035
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

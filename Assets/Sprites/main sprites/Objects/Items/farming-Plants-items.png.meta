@@ -112,7 +112,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,7 +126,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -150,7 +150,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -772,7 +772,33 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      farming-Plants-items_0: 8360184974953933675
+      farming-Plants-items_1: 3690553341567383519
+      farming-Plants-items_10: 9158497917273618566
+      farming-Plants-items_11: -9115433689785856990
+      farming-Plants-items_12: -4292873818880085496
+      farming-Plants-items_13: 8734304156336022443
+      farming-Plants-items_14: 6895149698704476563
+      farming-Plants-items_15: 4183160700423988859
+      farming-Plants-items_16: 7206217728049200231
+      farming-Plants-items_17: -7299006765846471599
+      farming-Plants-items_18: 8927835903354673726
+      farming-Plants-items_19: -5171272838537600577
+      farming-Plants-items_2: -2785801568943743307
+      farming-Plants-items_20: -7351753687751529859
+      farming-Plants-items_21: 8952335624232391845
+      farming-Plants-items_22: -6803644669709754648
+      farming-Plants-items_23: 1703367809675064884
+      farming-Plants-items_24: 1484927363220884529
+      farming-Plants-items_25: 1337806114678918342
+      farming-Plants-items_3: 2161777497763536343
+      farming-Plants-items_4: -1407192652626693244
+      farming-Plants-items_5: -2245968639394081413
+      farming-Plants-items_6: 1520462160614537146
+      farming-Plants-items_7: 9121260504622065833
+      farming-Plants-items_8: -3202463750465312422
+      farming-Plants-items_9: -3873690624852436281
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1422,7 +1422,59 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Egg_Spritesheet_Green_0: 33964143212863435
+      Egg_Spritesheet_Green_1: -7642917269792567773
+      Egg_Spritesheet_Green_10: -6507908178897781248
+      Egg_Spritesheet_Green_11: -4873884489292548090
+      Egg_Spritesheet_Green_12: 5266157668779337350
+      Egg_Spritesheet_Green_13: 4187651417389999524
+      Egg_Spritesheet_Green_14: 7063628095427699784
+      Egg_Spritesheet_Green_15: 9019878697134601141
+      Egg_Spritesheet_Green_16: -7271782685448092927
+      Egg_Spritesheet_Green_17: -31652327260181813
+      Egg_Spritesheet_Green_18: 7179420433570809978
+      Egg_Spritesheet_Green_19: 5006618090058909085
+      Egg_Spritesheet_Green_2: 739404812274840867
+      Egg_Spritesheet_Green_20: 3843001029230121490
+      Egg_Spritesheet_Green_21: 8341511134606270231
+      Egg_Spritesheet_Green_22: 3137851015100563126
+      Egg_Spritesheet_Green_23: 7176706419151322574
+      Egg_Spritesheet_Green_24: -5047020618097711543
+      Egg_Spritesheet_Green_25: 5311448146147572229
+      Egg_Spritesheet_Green_26: 2875608018118362849
+      Egg_Spritesheet_Green_27: 7385168743929882449
+      Egg_Spritesheet_Green_28: 1101532586537587354
+      Egg_Spritesheet_Green_29: 8753261450116024309
+      Egg_Spritesheet_Green_3: -8076417972208885480
+      Egg_Spritesheet_Green_30: -7166123692254346231
+      Egg_Spritesheet_Green_31: 175725871557991061
+      Egg_Spritesheet_Green_32: -4341951254567572543
+      Egg_Spritesheet_Green_33: 2694020293272585864
+      Egg_Spritesheet_Green_34: 470381033187467196
+      Egg_Spritesheet_Green_35: 6504278159615697344
+      Egg_Spritesheet_Green_36: 5522663735674293455
+      Egg_Spritesheet_Green_37: -1992932896050633461
+      Egg_Spritesheet_Green_38: -5299631382012893159
+      Egg_Spritesheet_Green_39: -5107402639353224709
+      Egg_Spritesheet_Green_4: -6954361177926903329
+      Egg_Spritesheet_Green_40: -8337036302972137526
+      Egg_Spritesheet_Green_41: -4547290257547396193
+      Egg_Spritesheet_Green_42: 6702981304142065490
+      Egg_Spritesheet_Green_43: -7438597621027046722
+      Egg_Spritesheet_Green_44: -3110861923214229071
+      Egg_Spritesheet_Green_45: 5402952563610463967
+      Egg_Spritesheet_Green_46: 6333307613412474766
+      Egg_Spritesheet_Green_47: 8943063021282038821
+      Egg_Spritesheet_Green_48: 7115169196258837417
+      Egg_Spritesheet_Green_49: -931721003804379088
+      Egg_Spritesheet_Green_5: 6800890861237567050
+      Egg_Spritesheet_Green_50: 8142053038743954187
+      Egg_Spritesheet_Green_51: 4608856067904049681
+      Egg_Spritesheet_Green_6: 5402330922448345040
+      Egg_Spritesheet_Green_7: -4243053505484778132
+      Egg_Spritesheet_Green_8: -8429867320806338323
+      Egg_Spritesheet_Green_9: 8561011334892770775
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

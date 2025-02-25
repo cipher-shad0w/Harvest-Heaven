@@ -972,7 +972,41 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tree_fall_animation_sprite_sheet_0: -3768170500252321308
+      tree_fall_animation_sprite_sheet_1: 523002294401205210
+      tree_fall_animation_sprite_sheet_10: -6974633880277968667
+      tree_fall_animation_sprite_sheet_11: -5847312995806614439
+      tree_fall_animation_sprite_sheet_12: -2239840989741791781
+      tree_fall_animation_sprite_sheet_13: 472749175208709894
+      tree_fall_animation_sprite_sheet_14: 4365627428020665457
+      tree_fall_animation_sprite_sheet_15: -4068287194592298911
+      tree_fall_animation_sprite_sheet_16: -268250172781043196
+      tree_fall_animation_sprite_sheet_17: 6396139799800111327
+      tree_fall_animation_sprite_sheet_18: -419882563459724536
+      tree_fall_animation_sprite_sheet_19: 115814583808510606
+      tree_fall_animation_sprite_sheet_2: 3402621710097498031
+      tree_fall_animation_sprite_sheet_20: 1750519001301303558
+      tree_fall_animation_sprite_sheet_21: -9136957405329914937
+      tree_fall_animation_sprite_sheet_22: -606565885533268988
+      tree_fall_animation_sprite_sheet_23: -5793951393543121681
+      tree_fall_animation_sprite_sheet_24: -5794603826025173911
+      tree_fall_animation_sprite_sheet_25: 6726166503913356951
+      tree_fall_animation_sprite_sheet_26: -7032843630652353140
+      tree_fall_animation_sprite_sheet_27: 6013087920054210986
+      tree_fall_animation_sprite_sheet_28: -7057094001331625772
+      tree_fall_animation_sprite_sheet_29: 6425232315266498344
+      tree_fall_animation_sprite_sheet_3: -5441106918561080007
+      tree_fall_animation_sprite_sheet_30: -3888157943190658044
+      tree_fall_animation_sprite_sheet_31: 1371408412142414663
+      tree_fall_animation_sprite_sheet_32: -8278025421425285369
+      tree_fall_animation_sprite_sheet_33: -4911605856339249195
+      tree_fall_animation_sprite_sheet_4: -6095120093476029848
+      tree_fall_animation_sprite_sheet_5: 8701644314718898820
+      tree_fall_animation_sprite_sheet_6: -9033652629638602509
+      tree_fall_animation_sprite_sheet_7: -4618329190285198134
+      tree_fall_animation_sprite_sheet_8: -6781426915489272568
+      tree_fall_animation_sprite_sheet_9: -6880839120705731493
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
