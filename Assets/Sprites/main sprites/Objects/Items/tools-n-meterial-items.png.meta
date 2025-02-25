@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tools-n-meterial-items_0: -7178645108241483569
+      tools-n-meterial-items_1: 657875912277218462
+      tools-n-meterial-items_10: -3241330841805255547
+      tools-n-meterial-items_11: 4691911435948503463
+      tools-n-meterial-items_2: -2243613801348123288
+      tools-n-meterial-items_3: -8573652189418947830
+      tools-n-meterial-items_4: -8106913210018680474
+      tools-n-meterial-items_5: 6360211573912825503
+      tools-n-meterial-items_6: 6190929539175263633
+      tools-n-meterial-items_7: -5021814089683610241
+      tools-n-meterial-items_8: 7111032524758626546
+      tools-n-meterial-items_9: -5285907213357799089
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

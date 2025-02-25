@@ -1247,7 +1247,52 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tree_pear_sprites_0: -3382875989805855704
+      tree_pear_sprites_1: -1466396983430825781
+      tree_pear_sprites_10: 3641038649600609630
+      tree_pear_sprites_11: -242058518975220385
+      tree_pear_sprites_12: -1812592266290016672
+      tree_pear_sprites_13: 6984403119013532561
+      tree_pear_sprites_14: -1454763994062706499
+      tree_pear_sprites_15: 7049679630916776366
+      tree_pear_sprites_16: 6473599314938016142
+      tree_pear_sprites_17: 2676269165818108495
+      tree_pear_sprites_18: -8237772294504057994
+      tree_pear_sprites_19: 2375586684764483249
+      tree_pear_sprites_2: -2576876587323242872
+      tree_pear_sprites_20: -3574976880409169412
+      tree_pear_sprites_21: 1404385437669400111
+      tree_pear_sprites_22: -1432113287635906948
+      tree_pear_sprites_23: -4471347660245057156
+      tree_pear_sprites_24: 3152151173704939614
+      tree_pear_sprites_25: 1739632461254624243
+      tree_pear_sprites_26: 5592201570045726519
+      tree_pear_sprites_27: 5742635957822814637
+      tree_pear_sprites_28: -3752604841519483715
+      tree_pear_sprites_29: 5792676807476043843
+      tree_pear_sprites_3: -5486274675318159353
+      tree_pear_sprites_30: -3151641720156304151
+      tree_pear_sprites_31: 6415509689146315310
+      tree_pear_sprites_32: -7307357932131330270
+      tree_pear_sprites_33: 3738372481022398937
+      tree_pear_sprites_34: 8373713790887959104
+      tree_pear_sprites_35: -5998096996029181269
+      tree_pear_sprites_36: 7039699515284851922
+      tree_pear_sprites_37: 7826697054932581916
+      tree_pear_sprites_38: -383205682627494452
+      tree_pear_sprites_39: -5935858445656427651
+      tree_pear_sprites_4: -5030473598515811793
+      tree_pear_sprites_40: 3063990518166805188
+      tree_pear_sprites_41: 1967803274749542076
+      tree_pear_sprites_42: -5958544372346936909
+      tree_pear_sprites_43: -1859956968355471637
+      tree_pear_sprites_44: -2533159491036855893
+      tree_pear_sprites_5: 6984263382370943473
+      tree_pear_sprites_6: 168879816228447687
+      tree_pear_sprites_7: -2378869281634234278
+      tree_pear_sprites_8: -5909312343686836045
+      tree_pear_sprites_9: 6081615336440949724
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -103,7 +103,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -117,7 +117,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -141,7 +141,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -697,7 +697,30 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      milk-items_0: -7661329381258251306
+      milk-items_1: -3256124194924955508
+      milk-items_10: -7654998551155962051
+      milk-items_11: -3697996898787353306
+      milk-items_12: 9053280366172888539
+      milk-items_13: 7132375952690995041
+      milk-items_14: 738582914310154654
+      milk-items_15: 9065491314843185276
+      milk-items_16: 8259490767353885977
+      milk-items_17: 1784156618043279353
+      milk-items_18: 5915080853684760172
+      milk-items_19: -4027254985337990570
+      milk-items_2: -8671975234663681662
+      milk-items_20: -1640703405665033586
+      milk-items_21: 1277939401665714348
+      milk-items_22: 9203322582868494899
+      milk-items_3: -8001967823277964434
+      milk-items_4: 4722272989183673673
+      milk-items_5: 1571030339589455532
+      milk-items_6: 4726103934313165945
+      milk-items_7: -831852416431745030
+      milk-items_8: 6701704476675762469
+      milk-items_9: -4133302990930683871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

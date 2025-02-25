@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chicken_Animations_GifPreview_0: -5839046341234888629
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
