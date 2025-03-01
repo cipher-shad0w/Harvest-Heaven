@@ -17,3 +17,5 @@
 .vs/
 .DS_Store
 .vscode
+
+Assembly-CSharp.csproj
