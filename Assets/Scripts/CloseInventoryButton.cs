@@ -3,12 +3,23 @@ using UnityEngine.UI;
 
 public class CloseInventoryButton : MonoBehaviour
 {
+    private Button closeButton;
+
     private void Start()
     {
-        GetComponent<Button>().onClick.AddListener(CloseInventory);
+        closeButton = GetComponent<Button>();
+        closeButton.onClick.AddListener(CloseInventory);
     }
 
-    public void CloseInventory()
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            CloseInventory();
+        }
+    }
+
+    private void CloseInventory()
     {
         InventoryManager.Instance.CloseInventory();
     }
