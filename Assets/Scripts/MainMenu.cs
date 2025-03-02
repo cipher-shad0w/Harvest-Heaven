@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
     public void Play_Game()
     {
         SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync("UI", LoadSceneMode.Additive);
     }
     public void Options()
     {
