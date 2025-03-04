@@ -24,6 +24,11 @@ public class PlayerController : MonoBehaviour
         AnimateMovement(direction);
 
         transform.position += direction * moveSpeed * Time.deltaTime;
+        
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+        InventoryManager.Instance.ToggleInventory();
+        }
     }
 
     void AnimateMovement(Vector3 direction)
