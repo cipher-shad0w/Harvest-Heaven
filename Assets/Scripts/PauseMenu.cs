@@ -3,8 +3,23 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenu;
+    public static PauseMenu Instance;
+    public GameObject pauseMenu_panel;
     public bool isPaused = false;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,8 +35,8 @@ public class PauseMenu : MonoBehaviour
             GameObject panel = GameObject.Find("PauseMenu");
             if (panel != null)
             {
-                pauseMenu = panel;
-                pauseMenu.SetActive(false);
+                pauseMenu_panel = panel;
+                pauseMenu_panel.SetActive(false);
             }
             else
             {
@@ -49,7 +64,7 @@ public class PauseMenu : MonoBehaviour
     {
         // pauseMenu.SetActive(true);
         Time.timeScale = 0f;
-        pauseMenu.SetActive(true);
+        pauseMenu_panel.SetActive(true);
         isPaused = true;
     }
 
@@ -58,7 +73,7 @@ public class PauseMenu : MonoBehaviour
         // pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         
-        pauseMenu.SetActive(false);
+        pauseMenu_panel.SetActive(false);
         isPaused = false;
     }
 
