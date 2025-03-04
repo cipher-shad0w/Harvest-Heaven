@@ -30,7 +30,7 @@ public class PauseMenu : MonoBehaviour
 
         private System.Collections.IEnumerator FindPauseMenu()
         {
-            yield return new WaitForSeconds(0.1f); // Give time for the scene to load
+            yield return new WaitForSeconds(0f); // Give time for the scene to load
 
             GameObject panel = GameObject.Find("PauseMenu");
             if (panel != null)
@@ -89,6 +89,7 @@ public class PauseMenu : MonoBehaviour
 
     public void Options()
     {
+        isPaused = false;
         SceneManager.LoadSceneAsync("Options");
     }
 
