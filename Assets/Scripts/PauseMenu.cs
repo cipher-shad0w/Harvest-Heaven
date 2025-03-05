@@ -90,13 +90,25 @@ public class PauseMenu : MonoBehaviour
     public void Options()
     {
         isPaused = false;
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            Destroy(player); // Remove the player from the scene
+        }
         SceneManager.LoadSceneAsync("Options");
+        Time.timeScale = 1f;
     }
 
     public void MainMenu()
     {
         isPaused = false;
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            Destroy(player); // Remove the player from the scene
+        }
         SceneManager.LoadSceneAsync("MainMenu");
+        Time.timeScale = 1f;
     }
     public void Quit_Game()
     {
