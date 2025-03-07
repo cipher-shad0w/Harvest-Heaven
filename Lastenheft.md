@@ -3,15 +3,16 @@
 ---
 
 ```mermaid
-pie
-    title Zeitverteilung im Projekt
-    "Genereller Aufbau (20.01.)" : 4
-    "Git & Jira Setup (21.01.)" : 2
-    "Map & Spieler Logik (21.01.)" : 6
-    "Items einsammeln (25.01.)" : 3
-    "Minimap & Merge Probleme (05.03.)" : 1
-    "KI Einarbeitung (06.03.)" : 4
-    "LLM Prompt für NPCs (07.03.)" : 2
+pie 
+title Zeitverteilung im Projekt 
+"Genereller Aufbau (20.01.)" : 4 
+"Git & Jira Setup (21.01.)" : 2 
+"Map & Spieler Logik (21.01.)" : 6 
+"Items einsammeln (25.01.)" : 3 
+"Minimap & Merge Probleme (05.03.)" : 1 
+"KI Einarbeitung (06.03.)" : 4 
+"Erweiterung Map (06.03.)" : 0.5 
+"LLM Prompt für NPCs (07.03.)" : 2 
 ```
 
 ---
@@ -46,6 +47,8 @@ pie
 - erste versuche der Implementierung (nichts hat so funktioniert wie es soll)
 - ich habe nur ein LLM in python zum laufen bekomme 
 
+# 06.03. - 00:30 Jannis K.
+- erweiterung der Map, damit die Minimap gut aussieht 
 # 07.03. - 02:00 Jannis K.
 - Prompt für das LLM für den Dorfbewohner schreiben, der erklärt, wie das spiel funktioniert
 
