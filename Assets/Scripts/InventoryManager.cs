@@ -1,9 +1,12 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
+    public List<Item> Items = new List<Item>();
+
     public bool isInventoryOpen = false;
 
     public delegate void InventoryToggled(bool state);
@@ -73,4 +76,15 @@ public class InventoryManager : MonoBehaviour
             OnInventoryToggled?.Invoke(isInventoryOpen);
         }
     }
+
+    public void Add(Item item)
+    {
+        Items.Add(item);
+    }
+
+    public void Remove(Item item)
+    {
+        Items.Remove(item);
+    }
+
 }
