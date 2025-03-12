@@ -9,7 +9,12 @@ public class FarmTile : MonoBehaviour
     {
         if (!isPlanted)
         {
-            Instantiate(seedPrefab, transform.position, Quaternion.identity);
+            Vector3 spawnPosition = GetComponent<Collider2D>().bounds.center;
+            spawnPosition.z = 0;
+
+            GameObject seed = Instantiate(seedPrefab, spawnPosition, Quaternion.identity);
+            seed.transform.SetParent(transform, false);
+
             isPlanted = true;
         }
     }

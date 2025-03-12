@@ -37,7 +37,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
     private void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
