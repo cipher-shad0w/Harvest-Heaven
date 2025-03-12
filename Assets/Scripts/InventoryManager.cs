@@ -30,6 +30,7 @@ public class InventoryManager : MonoBehaviour
 
     private void Start()
     {
+        // Load the Inventory scene additively, but keep it inactive
         SceneManager.LoadSceneAsync("Inventory", LoadSceneMode.Additive).completed += (op) =>
         {
             Scene inventoryScene = SceneManager.GetSceneByName("Inventory");
@@ -48,37 +49,57 @@ public class InventoryManager : MonoBehaviour
         }
         else
         {
-            ListItems();
             OpenInventory();
         }
     }
 
     public void OpenInventory()
     {
-        if (!isInventoryOpen)
+        isInventoryOpen = true;
+        Scene inventoryScene = SceneManager.GetSceneByName("Inventory");
+
+        foreach (GameObject obj in inventoryScene.GetRootGameObjects())
         {
-            isInventoryOpen = true;
-            Scene inventoryScene = SceneManager.GetSceneByName("Inventory");
-            foreach (GameObject obj in inventoryScene.GetRootGameObjects())
-            {
-                obj.SetActive(true); // Activate objects
-            }
-            OnInventoryToggled?.Invoke(isInventoryOpen);
+            obj.SetActive(true); // Activate objects
         }
+
+        // 🔹 Assign ItemContent AFTER the Inventory scene is active
+        if (ItemContent == null)
+        {
+            ItemContent = GameObject.Find("Canvas/Panel/Inventory (Scroll View)/Viewport/Content")?.transform;
+            if (ItemContent == null)
+            {
+                Debug.LogError("InventoryManager: ItemContent not found! Check UI hierarchy.");
+                return;
+            }
+        }
+
+        // 🔹 Load the InventoryItem prefab dynamically from Resources
+        if (InventoryItem == null)
+        {
+            InventoryItem = Resources.Load<GameObject>("Prefabs/UI/InventoryItem");
+            if (InventoryItem == null)
+            {
+                Debug.LogError("InventoryManager: InventoryItem prefab not found! Make sure it's inside Resources/Prefabs/UI/");
+                return;
+            }
+        }
+
+        ListItems();
+        OnInventoryToggled?.Invoke(isInventoryOpen);
     }
 
     public void CloseInventory()
     {
-        if (isInventoryOpen)
+        isInventoryOpen = false;
+        Scene inventoryScene = SceneManager.GetSceneByName("Inventory");
+
+        foreach (GameObject obj in inventoryScene.GetRootGameObjects())
         {
-            isInventoryOpen = false;
-            Scene inventoryScene = SceneManager.GetSceneByName("Inventory");
-            foreach (GameObject obj in inventoryScene.GetRootGameObjects())
-            {
-                obj.SetActive(false); // Deactivate objects instead of unloading the scene
-            }
-            OnInventoryToggled?.Invoke(isInventoryOpen);
+            obj.SetActive(false); // Deactivate objects instead of unloading the scene
         }
+
+        OnInventoryToggled?.Invoke(isInventoryOpen);
     }
 
     public void Add(Item item)
@@ -93,11 +114,31 @@ public class InventoryManager : MonoBehaviour
 
     public void ListItems()
     {
-        foreach(var item in Items)
+        // 🔹 Prevent running if ItemContent or InventoryItem is missing
+        if (ItemContent == null)
+        {
+            Debug.LogError("InventoryManager: ItemContent is null. Make sure the Inventory UI is loaded.");
+            return;
+        }
+
+        if (InventoryItem == null)
+        {
+            Debug.LogError("InventoryManager: InventoryItem is null. Ensure the prefab is loaded.");
+            return;
+        }
+
+        // 🔹 Clear previous items before adding new ones
+        foreach (Transform child in ItemContent)
+        {
+            Destroy(child.gameObject);
+        }
+
+        // 🔹 Populate inventory UI with items
+        foreach (var item in Items)
         {
             GameObject obj = Instantiate(InventoryItem, ItemContent);
-            var itemName = obj.transform.Find("Item/ItemName").GetComponent<Text>();
-            var itemIcon = obj.transform.Find("Item/ItemIcon").GetComponent<Image>();
+            var itemName = obj.transform.Find("ItemName (Text (TMP))").GetComponent<Text>();
+            var itemIcon = obj.transform.Find("Image").GetComponent<Image>();
 
             itemName.text = item.itemName;
             itemIcon.sprite = item.icon;
