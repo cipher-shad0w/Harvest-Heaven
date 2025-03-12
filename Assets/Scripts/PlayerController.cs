@@ -1,6 +1,6 @@
-// using Unity.VisualScripting; // Removed unnecessary using directive
 using System.Collections;
 using UnityEngine;
+
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
@@ -13,6 +13,30 @@ public class PlayerController : MonoBehaviour
     {
         inventory = new Inventory(21);
     }
+
+    void AnimateMovement(Vector3 direction)
+    {
+
+        animator.SetFloat("Horizontal", direction.x);
+        animator.SetFloat("Vertical", direction.y);
+        animator.SetFloat("Speed", direction.sqrMagnitude);
+    }
+
+    private void TryPlantSeed()
+    {
+        RaycastHit2D hit = Physics2D.BoxCast(transform.position, Vector2.one * 0.2f, 0, Vector2.zero);
+
+        if (hit.collider != null)
+        {
+            FarmTile farmTile = hit.collider.GetComponent<FarmTile>();
+
+            if (farmTile != null)
+            {
+                farmTile.PlantSeed();
+            }
+        }
+    }
+
 
     private void Update()
     {
@@ -27,17 +51,12 @@ public class PlayerController : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.I))
         {
-        InventoryManager.Instance.ToggleInventory();
+            InventoryManager.Instance.ToggleInventory();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            TryPlantSeed();
         }
     }
-
-    void AnimateMovement(Vector3 direction)
-    {
-
-        animator.SetFloat("Horizontal", direction.x);
-        animator.SetFloat("Vertical", direction.y);
-        animator.SetFloat("Speed", direction.sqrMagnitude);
-    }
-
-
 }
