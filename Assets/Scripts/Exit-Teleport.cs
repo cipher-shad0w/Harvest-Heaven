@@ -21,7 +21,14 @@ public class Teleport : MonoBehaviour
         {
             if (other.gameObject.CompareTag("Exit")) // Check if Player enters
             {
-                player.position = new Vector3(player.transform.position.x, -47f, player.transform.position.z); // Player teleportieren
+                player.position = new Vector3(player.transform.position.x, -47, player.transform.position.z); // Player teleportieren
+            }
+        
+            if (other.gameObject.CompareTag("Exit2")) // Check if Player enters
+            {
+                player.position = new Vector3(player.transform.position.x, -6.4f, player.transform.position.z); // Player teleportieren
+                Debug.Log("Spieler erfolgreich gefunden!");
             }
         }
+        
 }   
