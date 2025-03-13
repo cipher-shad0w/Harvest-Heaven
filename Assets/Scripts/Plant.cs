@@ -12,7 +12,7 @@ public class Plant : MonoBehaviour
     // time it takes for the plant to grow to the next stage
     public float growthTime = 5f;
     private int currentStage = 0;
-    public float growthOffset = 0.1f;
+    public float growthOffset = 0f;
 
     // item that the plant will drop when harvested
     public GameObject itemPrefab;
