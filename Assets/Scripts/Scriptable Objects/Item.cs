@@ -26,11 +26,11 @@ public enum ItemType
 /*
 How to create an item
 1. (In Assets/Items) Right Click -> Create -> Item -> Create New Item
-2. Name it properly and fill out all input fields and give it a sprite (this one is shown in the inventory)
-3. In Resources -> Prefabs: Right Click -> Create -> Scene -> Prefab
+2. Name it properly - ideally the same name as "idName" - and fill out all input fields and give it a sprite (this one is shown in the inventory)
+3. In Resources -> Prefabs: Right Click -> Create -> Scene -> Prefab, name it properly - has to be the same name as "idName" of the coresponding item.
 4. Add a sprite renderer and a sprite (this is the one shown in the world as a dropped item), 
    RigidBody (Kinematic, simulated), a collider (box or circle), ItemPickup.cs 
    and ItemController.cs (and assign the corresponding item)
-4. or duplicate the "Item" prefab and assign everything properly
+4. or duplicate the "Item" prefab and assign + name everything properly
 
 */
