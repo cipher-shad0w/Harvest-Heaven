@@ -1,12 +1,11 @@
-# Dokumentation: Beitrag von Jannis K. an "Harvest Heaven"
-
 ## 1. Projektübersicht
 
-**Name:** Harvest Heaven  
+**Name des Projektes:** Harvest Heaven  
+**Entwickler:** Jannis Krija, Jannis Niese, Tobias Lehmann
 **Projektziel:** Entwicklung eines Farming-Games als Unterrichtsprojekt  
 **Engine:** Unity  
-**KI-Integration:** Verschiedene LLMs getestet (nicht erfolgreich)  
-**Mein Beitrag:** Projektplanung, Strukturierung, Git-Setup, technische Umsetzung verschiedener Features, Unterstützung bei Bugs
+**Programmeirsprache:** C#
+**KI-Integration:** Verschiedene LLMs getestet (nicht erfolgreich) 
 
 ## 2. Arbeitsaufwand und Tätigkeiten
 
