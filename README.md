@@ -1,20 +1,20 @@
-# Harvest Heaven - Game Design Document
+<div align="center" id="top"> 
+  &#xa0;
+</div>
 
-## Überblick
+<h1 align="center">Harvest Heaven</h1>
 
-Harvest Heaven ist ein 2D-Top-Down-Pixel-Art-Simulationsspiel, in dem die Spieler die Rolle eines Überlebenden übernehmen, der ein blühendes Dorf von Grund auf aufbauen muss. Das Spiel konzentriert sich auf Überleben, Ressourcenmanagement und den Aufbau einer harmonischen Gemeinschaft, während Bedrohungen von außen abgewehrt werden.
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/cipher-shad0w/harvest-heaven?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/cipher-shad0w/harvest-heaven?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/cipher-shad0w/harvest-heaven?color=56BEB8">
+</p>
 
-## Kernkonzept
-
-- Der Spieler startet allein auf einer weiten Wiese ohne Werkzeuge oder Fähigkeiten.
-- In der Umgebung gibt es zahlreiche natürliche Ressourcen wie Bäume, Stöcke und Steine.
-- Spieler müssen Materialien sammeln, um Werkzeuge herzustellen und Fähigkeiten zu erlernen.
-- Mit der Zeit entwickelt sich die Wiese zu einem lebendigen Dorf, in dem Bewohner ankommen und sich ansiedeln.
-- Ein Tag-Nacht-Zyklus bestimmt das Spielgeschehen, wobei verschiedene Aktivitäten und Bedrohungen zu unterschiedlichen Zeiten auftreten.
-- Nach einer Schonfrist von fünf Ingame-Tagen werden Überlebensmechaniken wie Hunger und Durst eingeführt, und feindliche Kreaturen beginnen, nachts anzugreifen.
-
-## Spielmechaniken
-
+<p align="center">
+  <a href="#about">About</a> &#xa0; | &#xa0; 
+  <a href="#features">Features</a> &#xa0; | &#xa0;
+  <a href="#technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#requirements">Requirements</a> &#xa0; | &#xa0;
 ### Überleben und Erkundung
 
 - **Ressourcensammlung:** Spieler sammeln Materialien wie Holz, Stein und Nahrung, um essenzielle Gegenstände herzustellen.
